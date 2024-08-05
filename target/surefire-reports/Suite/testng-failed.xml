@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="methods" name="DemoStoreApp(failed)" verbose="0">
+    <classes>
+      <class name="org.demoStore.runner.Runner">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="12"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- org.demoStore.runner.Runner -->
+    </classes>
+  </test> <!-- DemoStoreApp(failed) -->
+</suite> <!-- Failed suite [Suite] -->

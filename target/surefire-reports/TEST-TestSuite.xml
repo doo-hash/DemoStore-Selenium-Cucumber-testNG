@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="548.703" tests="13" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="D:\d\eclipse-workspace\DemoStoreTestng\target\test-classes;D:\d\eclipse-workspace\DemoStoreTestng\target\classes;C:\Users\admin\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\admin\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\admin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-testng\7.17.0\cucumber-testng-7.17.0.jar;C:\Users\admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-core\7.17.0\cucumber-core-7.17.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-gherkin\7.17.0\cucumber-gherkin-7.17.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.17.0\cucumber-gherkin-messages-7.17.0.jar;C:\Users\admin\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\admin\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\admin\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\admin\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\admin\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\admin\.m2\repository\io\cucumber\datatable\7.17.0\datatable-7.17.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-plugin\7.17.0\cucumber-plugin-7.17.0.jar;C:\Users\admin\.m2\repository\io\cucumber\docstring\7.17.0\docstring-7.17.0.jar;C:\Users\admin\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\admin\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\admin\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-java\7.17.0\cucumber-java-7.17.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\admin\.m2\repository\net\masterthought\cucumber-reporting\5.8.0\cucumber-reporting-5.8.0.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.16.1\jackson-datatype-jsr310-2.16.1.jar;C:\Users\admin\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\admin\.m2\repository\joda-time\joda-time\2.12.6\joda-time-2.12.6.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-configuration2\2.9.0\commons-configuration2-2.9.0.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\admin\.m2\repository\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar;C:\Users\admin\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20220608.1\owasp-java-html-sanitizer-20220608.1.jar;C:\Users\admin\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\admin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\admin\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\admin\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\admin\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.11\jcl-over-slf4j-2.0.11.jar;C:\Users\admin\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\admin\.m2\repository\com\aventstack\extentreports\5.1.0\extentreports-5.1.0.jar;C:\Users\admin\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\admin\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\admin\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\admin\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\admin\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\admin\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\admin\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\admin\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\admin\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\admin\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\admin\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\admin\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\admin\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\admin\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\admin\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\admin\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\admin\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\admin\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\admin\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\admin\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\admin\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\admin\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\admin\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\admin\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\admin\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.22.0\selenium-java-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.22.0\selenium-api-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.22.0\selenium-chrome-driver-4.22.0.jar;C:\Users\admin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.22.0\selenium-chromium-driver-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.22.0\selenium-json-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.22.0\selenium-manager-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.22.0\selenium-devtools-v124-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.22.0\selenium-devtools-v125-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.22.0\selenium-devtools-v126-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.22.0\selenium-devtools-v85-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.22.0\selenium-edge-driver-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.22.0\selenium-firefox-driver-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.22.0\selenium-http-4.22.0.jar;C:\Users\admin\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.22.0\selenium-ie-driver-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.22.0\selenium-remote-driver-4.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-api\1.39.0\opentelemetry-api-1.39.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-context\1.39.0\opentelemetry-context-1.39.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.39.0\opentelemetry-exporter-logging-1.39.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.39.0\opentelemetry-sdk-common-1.39.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.39.0\opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.39.0\opentelemetry-sdk-extension-autoconfigure-1.39.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.39.0-alpha\opentelemetry-api-incubator-1.39.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.39.0\opentelemetry-sdk-trace-1.39.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.39.0\opentelemetry-sdk-1.39.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.39.0\opentelemetry-sdk-metrics-1.39.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.39.0\opentelemetry-sdk-logs-1.39.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.22.0\selenium-os-4.22.0.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.22.0\selenium-safari-driver-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.22.0\selenium-support-4.22.0.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-jdk14\2.0.13\slf4j-jdk14-2.0.13.jar;C:\Users\admin\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\admin\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\admin\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\admin\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire15379693636769287855\surefirebooter-20240805195859202_3.jar C:\Users\admin\AppData\Local\Temp\surefire15379693636769287855 2024-08-05T19-58-58_790-jvmRun1 surefire-20240805195859202_1tmp surefire_0-20240805195859202_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\d\eclipse-workspace\DemoStoreTestng\target\test-classes;D:\d\eclipse-workspace\DemoStoreTestng\target\classes;C:\Users\admin\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\admin\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\admin\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-testng\7.17.0\cucumber-testng-7.17.0.jar;C:\Users\admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-core\7.17.0\cucumber-core-7.17.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-gherkin\7.17.0\cucumber-gherkin-7.17.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.17.0\cucumber-gherkin-messages-7.17.0.jar;C:\Users\admin\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\admin\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\admin\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\admin\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\admin\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\admin\.m2\repository\io\cucumber\datatable\7.17.0\datatable-7.17.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-plugin\7.17.0\cucumber-plugin-7.17.0.jar;C:\Users\admin\.m2\repository\io\cucumber\docstring\7.17.0\docstring-7.17.0.jar;C:\Users\admin\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\admin\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\admin\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-java\7.17.0\cucumber-java-7.17.0.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;C:\Users\admin\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\admin\.m2\repository\net\masterthought\cucumber-reporting\5.8.0\cucumber-reporting-5.8.0.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\admin\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.16.1\jackson-datatype-jsr310-2.16.1.jar;C:\Users\admin\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\admin\.m2\repository\joda-time\joda-time\2.12.6\joda-time-2.12.6.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-configuration2\2.9.0\commons-configuration2-2.9.0.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\admin\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\admin\.m2\repository\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar;C:\Users\admin\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20220608.1\owasp-java-html-sanitizer-20220608.1.jar;C:\Users\admin\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\admin\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\admin\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\admin\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\admin\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\admin\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\admin\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\admin\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.11\jcl-over-slf4j-2.0.11.jar;C:\Users\admin\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\admin\.m2\repository\com\aventstack\extentreports\5.1.0\extentreports-5.1.0.jar;C:\Users\admin\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\admin\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\admin\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\admin\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\admin\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\admin\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\admin\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\admin\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\admin\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\admin\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\admin\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\admin\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\admin\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\admin\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\admin\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\admin\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\admin\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\admin\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\admin\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\admin\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\admin\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\admin\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\admin\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\admin\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\admin\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\admin\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\admin\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\admin\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-java\4.22.0\selenium-java-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-api\4.22.0\selenium-api-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.22.0\selenium-chrome-driver-4.22.0.jar;C:\Users\admin\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.22.0\selenium-chromium-driver-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-json\4.22.0\selenium-json-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.22.0\selenium-manager-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.22.0\selenium-devtools-v124-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.22.0\selenium-devtools-v125-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v126\4.22.0\selenium-devtools-v126-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.22.0\selenium-devtools-v85-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.22.0\selenium-edge-driver-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.22.0\selenium-firefox-driver-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-http\4.22.0\selenium-http-4.22.0.jar;C:\Users\admin\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.22.0\selenium-ie-driver-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.22.0\selenium-remote-driver-4.22.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-api\1.39.0\opentelemetry-api-1.39.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-context\1.39.0\opentelemetry-context-1.39.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.39.0\opentelemetry-exporter-logging-1.39.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.39.0\opentelemetry-sdk-common-1.39.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.39.0\opentelemetry-sdk-extension-autoconfigure-spi-1.39.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.39.0\opentelemetry-sdk-extension-autoconfigure-1.39.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.39.0-alpha\opentelemetry-api-incubator-1.39.0-alpha.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.39.0\opentelemetry-sdk-trace-1.39.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.39.0\opentelemetry-sdk-1.39.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.39.0\opentelemetry-sdk-metrics-1.39.0.jar;C:\Users\admin\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.39.0\opentelemetry-sdk-logs-1.39.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.14.17\byte-buddy-1.14.17.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-os\4.22.0\selenium-os-4.22.0.jar;C:\Users\admin\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.22.0\selenium-safari-driver-4.22.0.jar;C:\Users\admin\.m2\repository\org\seleniumhq\selenium\selenium-support\4.22.0\selenium-support-4.22.0.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\admin\.m2\repository\org\slf4j\slf4j-jdk14\2.0.13\slf4j-jdk14-2.0.13.jar;C:\Users\admin\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\admin\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\admin\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\admin\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\d\eclipse-workspace\DemoStoreTestng"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire15379693636769287855\surefirebooter-20240805195859202_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.1+8-16"/>
+    <property name="user.name" value="admin"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.1"/>
+    <property name="user.dir" value="D:\d\eclipse-workspace\DemoStoreTestng"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\GitHub CLI\;C:\Program Files\HP\HP One Agent;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.1+8-16"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;User buys a product&quot;, &quot;User buys a product in demo store application&quot;](1)" classname="org.demoStore.runner.Runner" time="115.38">
+    <system-out><![CDATA[...
+... TestNG 7.10.2 by Cédric Beust (cedric@beust.com)
+...
+
+
+@all @product @smoke @regression
+Scenario: User buys a product                                                    &amp#27;[90m# src/test/resources/features/buyProduct.feature:10&amp#27;[0m
+[INFO ] 2024-08-05 19:59:16.216 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-05 19:59:28.845 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-05 19:59:33.016 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-05 19:59:33.039 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to login page&amp#27;[0m                                             &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_navigates_to_login_page()&amp#27;[0m
+
+    Embedding User buys a product [image/png 104157 bytes]
+
+[INFO ] 2024-08-05 19:59:33.651 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User buys a product
+[INFO ] 2024-08-05 19:59:33.670 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-05 19:59:33.671 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Navigated to login page
+[TRACE] 2024-08-05 19:59:34.146 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Entered login credentials and clicked login button
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser login to the application with &amp#27;[0m&amp#27;[32m&amp#27;[1m"johndrew@gmail.com"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"Password123"&amp#27;[0m &amp#27;[90m# org.demoStore.stepDefinitions.SearchProductStepDef.user_enters_product_name(java.lang.String,java.lang.String)&amp#27;[0m
+
+    Embedding User buys a product [image/png 108934 bytes]
+
+[INFO ] 2024-08-05 19:59:35.216 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User buys a product
+[TRACE] 2024-08-05 19:59:37.652 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-05 19:59:38.011 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Navigated to home page
+[INFO ] 2024-08-05 19:59:38.023 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-05 19:59:38.024 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Welcome Message: Support This Project
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser was redirected back to home page&amp#27;[0m                                      &amp#27;[90m# org.demoStore.stepDefinitions.SearchProductStepDef.user_was_redirected_back_to_home_page()&amp#27;[0m
+
+    Embedding User buys a product [image/png 1866967 bytes]
+
+[INFO ] 2024-08-05 19:59:39.883 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User buys a product
+[TRACE] 2024-08-05 19:59:42.885 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Searching for product: Selene Yoga Hoodie
+Selene Yoga Hoodie
+[TRACE] 2024-08-05 19:59:44.463 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Searched product found
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser search and find product &amp#27;[0m&amp#27;[32m&amp#27;[1m"Selene Yoga Hoodie"&amp#27;[0m                         &amp#27;[90m# org.demoStore.stepDefinitions.BuyProductStepDef.user_search_and_find_product(java.lang.String)&amp#27;[0m
+
+    Embedding User buys a product [image/png 871673 bytes]
+
+[INFO ] 2024-08-05 19:59:45.449 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User buys a product
+[TRACE] 2024-08-05 19:59:45.809 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Selecting color and size
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser selects color and size&amp#27;[0m                                                &amp#27;[90m# org.demoStore.stepDefinitions.BuyProductStepDef.user_selects_color_and_size()&amp#27;[0m
+
+    Embedding User buys a product [image/png 869785 bytes]
+
+[INFO ] 2024-08-05 19:59:46.851 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User buys a product
+[TRACE] 2024-08-05 19:59:47.356 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked add to cart button
+[TRACE] 2024-08-05 19:59:52.779 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked cart button to proceed checkout
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser adds product to cart&amp#27;[0m                                                  &amp#27;[90m# org.demoStore.stepDefinitions.BuyProductStepDef.user_adds_product_to_cart()&amp#27;[0m
+
+    Embedding User buys a product [image/png 717274 bytes]
+
+[INFO ] 2024-08-05 19:59:54.294 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User buys a product
+[TRACE] 2024-08-05 19:59:56.329 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked checkout button
+[INFO ] 2024-08-05 19:59:56.525 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/checkout/
+[TRACE] 2024-08-05 19:59:56.525 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Navigated to checkout page
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser clicks checkout button&amp#27;[0m                                               &amp#27;[90m# org.demoStore.stepDefinitions.BuyProductStepDef.user_clicks_checkout_button()&amp#27;[0m
+
+    Embedding User buys a product [image/png 37729 bytes]
+
+[INFO ] 2024-08-05 19:59:57.164 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User buys a product
+[TRACE] 2024-08-05 20:00:06.706 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked next button to see billing address
+[INFO ] 2024-08-05 20:00:06.731 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/checkout/#shipping
+[TRACE] 2024-08-05 20:00:10.568 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - billing address is selected
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser verifies address and order details&amp#27;[0m                                    &amp#27;[90m# org.demoStore.stepDefinitions.BuyProductStepDef.user_verifies_address_and_order_details()&amp#27;[0m
+
+    Embedding User buys a product [image/png 118728 bytes]
+
+[INFO ] 2024-08-05 20:00:11.209 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User buys a product
+[TRACE] 2024-08-05 20:00:13.581 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked place order button
+[INFO ] 2024-08-05 20:00:13.610 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/checkout/#payment
+[TRACE] 2024-08-05 20:00:13.611 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Navigated to orders page
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks place order button&amp#27;[0m                                             &amp#27;[90m# org.demoStore.stepDefinitions.BuyProductStepDef.user_clicks_place_order_button()&amp#27;[0m
+
+    Embedding User buys a product [image/png 130751 bytes]
+
+[INFO ] 2024-08-05 20:00:14.168 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User buys a product
+[TRACE] 2024-08-05 20:00:17.930 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - order number is: 000013333
+[TRACE] 2024-08-05 20:00:34.857 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked order number link
+[INFO ] 2024-08-05 20:00:34.908 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/sales/order/view/order_id/13328/
+[TRACE] 2024-08-05 20:00:34.908 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Navigated to order details page
+[TRACE] 2024-08-05 20:00:35.328 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Checked order details
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser checks order receipt &amp#27;[0m&amp#27;[32m&amp#27;[1m"Selene Yoga Hoodie"&amp#27;[0m                            &amp#27;[90m# org.demoStore.stepDefinitions.BuyProductStepDef.user_checks_order_receipt(java.lang.String)&amp#27;[0m
+
+    Embedding User buys a product [image/png 189491 bytes]
+
+[INFO ] 2024-08-05 20:00:35.958 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User buys a product
+[TRACE] 2024-08-05 20:00:57.569 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked logout button
+[INFO ] 2024-08-05 20:00:57.828 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - logout successful
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser signs out of the application&amp#27;[0m                                          &amp#27;[90m# org.demoStore.stepDefinitions.BuyProductStepDef.user_signs_out_of_the_application()&amp#27;[0m
+
+    Embedding User buys a product [image/png 82190 bytes]
+
+[INFO ] 2024-08-05 20:00:58.390 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User buys a product
+[INFO ] 2024-08-05 20:00:58.395 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution over
+]]></system-out>
+    <system-err><![CDATA[Aug 05, 2024 7:59:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User logins with valid credentials&quot;, &quot;User login to demo store application&quot;](2)" classname="org.demoStore.runner.Runner" time="33.682">
+    <system-out><![CDATA[
+@all @login @validCredentials @smoke @regression
+Scenario: User logins with valid credentials &amp#27;[90m# src/test/resources/features/login.feature:10&amp#27;[0m
+[INFO ] 2024-08-05 20:01:05.900 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-05 20:01:18.840 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-05 20:01:20.542 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-05 20:01:20.619 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to login page&amp#27;[0m         &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_navigates_to_login_page()&amp#27;[0m
+
+    Embedding User logins with valid credentials [image/png 104157 bytes]
+
+[INFO ] 2024-08-05 20:01:21.878 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with valid credentials
+[TRACE] 2024-08-05 20:01:22.086 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Email entered
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"johnDrew@test.com"&amp#27;[0m &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_enters_email(java.lang.String)&amp#27;[0m
+
+    Embedding User logins with valid credentials [image/png 116644 bytes]
+
+[INFO ] 2024-08-05 20:01:24.348 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with valid credentials
+[TRACE] 2024-08-05 20:01:24.493 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Password entered
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Password123"&amp#27;[0m     &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_enters_password(java.lang.String)&amp#27;[0m
+
+    Embedding User logins with valid credentials [image/png 108671 bytes]
+
+[INFO ] 2024-08-05 20:01:25.083 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with valid credentials
+[TRACE] 2024-08-05 20:01:27.120 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked login button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks login button&amp#27;[0m               &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_clicks_login_button()&amp#27;[0m
+
+    Embedding User logins with valid credentials [image/png 1865321 bytes]
+
+[INFO ] 2024-08-05 20:01:28.967 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with valid credentials
+[TRACE] 2024-08-05 20:01:28.981 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Navigated back to home page
+[INFO ] 2024-08-05 20:01:28.991 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser was navigated back to home page&amp#27;[0m  &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_was_navigated_back_to_home_page()&amp#27;[0m
+
+    Embedding User logins with valid credentials [image/png 1866917 bytes]
+
+[INFO ] 2024-08-05 20:01:30.517 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with valid credentials
+[TRACE] 2024-08-05 20:01:30.607 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Username found
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser name is visible &amp#27;[0m&amp#27;[32m&amp#27;[1m"John Drew"&amp#27;[0m       &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_name_is_visible(java.lang.String)&amp#27;[0m
+
+    Embedding User logins with valid credentials [image/png 1866988 bytes]
+
+[INFO ] 2024-08-05 20:01:32.111 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with valid credentials
+[INFO ] 2024-08-05 20:01:32.122 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution over
+]]></system-out>
+    <system-err><![CDATA[Aug 05, 2024 8:01:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User logins with invalid credentials&quot;, &quot;User login to demo store application&quot;](3)" classname="org.demoStore.runner.Runner" time="23.388">
+    <system-out><![CDATA[
+@all @login @invalidCredentials
+Scenario Outline: User logins with invalid credentials &amp#27;[90m# src/test/resources/features/login.feature:26&amp#27;[0m
+[INFO ] 2024-08-05 20:01:38.726 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-05 20:01:46.668 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-05 20:01:51.165 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-05 20:01:51.202 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to login page&amp#27;[0m                   &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_navigates_to_login_page()&amp#27;[0m
+
+    Embedding User logins with invalid credentials [image/png 104157 bytes]
+
+[INFO ] 2024-08-05 20:01:51.543 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with invalid credentials
+[TRACE] 2024-08-05 20:01:51.729 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Email entered
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"feary@waq.com"&amp#27;[0m               &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_enters_email(java.lang.String)&amp#27;[0m
+
+    Embedding User logins with invalid credentials [image/png 116186 bytes]
+
+[INFO ] 2024-08-05 20:01:52.253 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with invalid credentials
+[TRACE] 2024-08-05 20:01:52.408 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Password entered
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Password123"&amp#27;[0m               &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_enters_password(java.lang.String)&amp#27;[0m
+
+    Embedding User logins with invalid credentials [image/png 108370 bytes]
+
+[INFO ] 2024-08-05 20:01:52.756 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with invalid credentials
+[TRACE] 2024-08-05 20:01:55.228 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked login button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks login button&amp#27;[0m                         &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_clicks_login_button()&amp#27;[0m
+
+    Embedding User logins with invalid credentials [image/png 104626 bytes]
+
+[INFO ] 2024-08-05 20:01:55.658 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with invalid credentials
+[TRACE] 2024-08-05 20:01:55.739 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should get proper warning message&amp#27;[0m          &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_should_get_proper_warning_message()&amp#27;[0m
+
+    Embedding User logins with invalid credentials [image/png 114795 bytes]
+
+[INFO ] 2024-08-05 20:01:56.100 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with invalid credentials
+[INFO ] 2024-08-05 20:01:56.102 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution over
+]]></system-out>
+    <system-err><![CDATA[Aug 05, 2024 8:01:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User logins with invalid credentials&quot;, &quot;User login to demo store application&quot;](4)" classname="org.demoStore.runner.Runner" time="31.446">
+    <system-out><![CDATA[
+@all @login @invalidCredentials
+Scenario Outline: User logins with invalid credentials &amp#27;[90m# src/test/resources/features/login.feature:27&amp#27;[0m
+[INFO ] 2024-08-05 20:02:02.206 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-05 20:02:15.685 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-05 20:02:20.255 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-05 20:02:20.296 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to login page&amp#27;[0m                   &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_navigates_to_login_page()&amp#27;[0m
+
+    Embedding User logins with invalid credentials [image/png 104157 bytes]
+
+[INFO ] 2024-08-05 20:02:20.900 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with invalid credentials
+[TRACE] 2024-08-05 20:02:21.089 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Email entered
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"johnDrew@test.com"&amp#27;[0m           &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_enters_email(java.lang.String)&amp#27;[0m
+
+    Embedding User logins with invalid credentials [image/png 116658 bytes]
+
+[INFO ] 2024-08-05 20:02:22.993 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with invalid credentials
+[TRACE] 2024-08-05 20:02:23.193 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Password entered
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters password &amp#27;[0m&amp#27;[32m&amp#27;[1m"wpasswed"&amp#27;[0m                  &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_enters_password(java.lang.String)&amp#27;[0m
+
+    Embedding User logins with invalid credentials [image/png 108652 bytes]
+
+[INFO ] 2024-08-05 20:02:23.780 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with invalid credentials
+[TRACE] 2024-08-05 20:02:25.578 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked login button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks login button&amp#27;[0m                         &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_clicks_login_button()&amp#27;[0m
+
+    Embedding User logins with invalid credentials [image/png 105099 bytes]
+
+[INFO ] 2024-08-05 20:02:26.409 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with invalid credentials
+[TRACE] 2024-08-05 20:02:26.496 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should get proper warning message&amp#27;[0m          &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_should_get_proper_warning_message()&amp#27;[0m
+
+    Embedding User logins with invalid credentials [image/png 115208 bytes]
+
+[INFO ] 2024-08-05 20:02:27.220 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with invalid credentials
+[INFO ] 2024-08-05 20:02:27.222 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution over
+]]></system-out>
+    <system-err><![CDATA[Aug 05, 2024 8:02:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User logins with invalid credentials&quot;, &quot;User login to demo store application&quot;](5)" classname="org.demoStore.runner.Runner" time="29.943">
+    <system-out><![CDATA[
+@all @login @invalidCredentials
+Scenario Outline: User logins with invalid credentials &amp#27;[90m# src/test/resources/features/login.feature:28&amp#27;[0m
+[INFO ] 2024-08-05 20:02:35.389 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-05 20:02:47.619 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-05 20:02:50.467 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-05 20:02:50.494 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to login page&amp#27;[0m                   &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_navigates_to_login_page()&amp#27;[0m
+
+    Embedding User logins with invalid credentials [image/png 104157 bytes]
+
+[INFO ] 2024-08-05 20:02:50.900 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with invalid credentials
+[TRACE] 2024-08-05 20:02:51.059 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Email entered
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"johndrewos@test.com"&amp#27;[0m         &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_enters_email(java.lang.String)&amp#27;[0m
+
+    Embedding User logins with invalid credentials [image/png 116705 bytes]
+
+[INFO ] 2024-08-05 20:02:53.445 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with invalid credentials
+[TRACE] 2024-08-05 20:02:53.709 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Password entered
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters password &amp#27;[0m&amp#27;[32m&amp#27;[1m"wpasswed"&amp#27;[0m                  &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_enters_password(java.lang.String)&amp#27;[0m
+
+    Embedding User logins with invalid credentials [image/png 108793 bytes]
+
+[INFO ] 2024-08-05 20:02:54.081 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with invalid credentials
+[TRACE] 2024-08-05 20:02:55.593 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked login button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks login button&amp#27;[0m                         &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_clicks_login_button()&amp#27;[0m
+
+    Embedding User logins with invalid credentials [image/png 105162 bytes]
+
+[INFO ] 2024-08-05 20:02:55.989 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with invalid credentials
+[TRACE] 2024-08-05 20:02:56.066 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should get proper warning message&amp#27;[0m          &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_should_get_proper_warning_message()&amp#27;[0m
+
+    Embedding User logins with invalid credentials [image/png 115295 bytes]
+
+[INFO ] 2024-08-05 20:02:56.480 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with invalid credentials
+[INFO ] 2024-08-05 20:02:56.482 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution over
+]]></system-out>
+    <system-err><![CDATA[Aug 05, 2024 8:02:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User logins with invalid credentials&quot;, &quot;User login to demo store application&quot;](6)" classname="org.demoStore.runner.Runner" time="29.767">
+    <system-out><![CDATA[
+@all @login @invalidCredentials
+Scenario Outline: User logins with invalid credentials &amp#27;[90m# src/test/resources/features/login.feature:29&amp#27;[0m
+[INFO ] 2024-08-05 20:03:06.634 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-05 20:03:18.877 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-05 20:03:22.189 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-05 20:03:22.257 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to login page&amp#27;[0m                   &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_navigates_to_login_page()&amp#27;[0m
+
+    Embedding User logins with invalid credentials [image/png 101897 bytes]
+
+[INFO ] 2024-08-05 20:03:22.994 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with invalid credentials
+[TRACE] 2024-08-05 20:03:23.163 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Email entered
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"john_@@test.com"&amp#27;[0m             &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_enters_email(java.lang.String)&amp#27;[0m
+
+    Embedding User logins with invalid credentials [image/png 116445 bytes]
+
+[INFO ] 2024-08-05 20:03:24.617 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with invalid credentials
+[TRACE] 2024-08-05 20:03:24.781 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Password entered
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters password &amp#27;[0m&amp#27;[32m&amp#27;[1m"wpa@!swed"&amp#27;[0m                 &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_enters_password(java.lang.String)&amp#27;[0m
+
+    Embedding User logins with invalid credentials [image/png 108593 bytes]
+
+[INFO ] 2024-08-05 20:03:25.355 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with invalid credentials
+[TRACE] 2024-08-05 20:03:25.518 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked login button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks login button&amp#27;[0m                         &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_clicks_login_button()&amp#27;[0m
+
+    Embedding User logins with invalid credentials [image/png 122380 bytes]
+
+[INFO ] 2024-08-05 20:03:26.325 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with invalid credentials
+[WARN ] 2024-08-05 20:03:26.468 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Warning message not found
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should get proper warning message&amp#27;[0m          &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_should_get_proper_warning_message()&amp#27;[0m
+
+    Embedding User logins with invalid credentials [image/png 122389 bytes]
+
+[INFO ] 2024-08-05 20:03:27.097 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with invalid credentials
+[INFO ] 2024-08-05 20:03:27.098 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution over
+]]></system-out>
+    <system-err><![CDATA[Aug 05, 2024 8:03:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User logins with empty credentials&quot;, &quot;User login to demo store application&quot;](7)" classname="org.demoStore.runner.Runner" time="32.794">
+    <system-out><![CDATA[
+@all @login @emptyCredentials @smoke @regression
+Scenario: User logins with empty credentials                         &amp#27;[90m# src/test/resources/features/login.feature:32&amp#27;[0m
+[INFO ] 2024-08-05 20:03:35.121 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-05 20:03:49.342 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-05 20:03:55.015 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-05 20:03:55.089 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to login page&amp#27;[0m                                 &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_navigates_to_login_page()&amp#27;[0m
+
+    Embedding User logins with empty credentials [image/png 104157 bytes]
+
+[INFO ] 2024-08-05 20:03:55.729 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with empty credentials
+[INFO ] 2024-08-05 20:03:56.055 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Login with empty credentials
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser doesnot enters credentials&amp#27;[0m                               &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_doesnot_enters_credentials()&amp#27;[0m
+
+    Embedding User logins with empty credentials [image/png 105685 bytes]
+
+[INFO ] 2024-08-05 20:03:57.444 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with empty credentials
+[TRACE] 2024-08-05 20:03:57.770 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked login button
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks login button&amp#27;[0m                                       &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_clicks_login_button()&amp#27;[0m
+
+    Embedding User logins with empty credentials [image/png 117715 bytes]
+
+[INFO ] 2024-08-05 20:03:58.371 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with empty credentials
+[TRACE] 2024-08-05 20:03:58.464 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Email warning message found
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser gets email warning message &amp#27;[0m&amp#27;[32m&amp#27;[1m"This is a required field."&amp#27;[0m   &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_gets_email_warning_message(java.lang.String)&amp#27;[0m
+
+    Embedding User logins with empty credentials [image/png 117727 bytes]
+
+[INFO ] 2024-08-05 20:03:59.028 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with empty credentials
+[TRACE] 2024-08-05 20:03:59.115 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Password warning message found
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser gets password warning message &amp#27;[0m&amp#27;[32m&amp#27;[1m"This is a required field."&amp#27;[0m &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_gets_password_warning_message(java.lang.String)&amp#27;[0m
+
+    Embedding User logins with empty credentials [image/png 117799 bytes]
+
+[INFO ] 2024-08-05 20:03:59.730 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User logins with empty credentials
+[INFO ] 2024-08-05 20:03:59.808 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution over
+]]></system-out>
+    <system-err><![CDATA[Aug 05, 2024 8:03:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User checks orders in the store&quot;, &quot;User checks his/her orders in demo store application&quot;](8)" classname="org.demoStore.runner.Runner" time="56.442">
+    <system-out><![CDATA[
+@all @myOrders @smoke @regression
+Scenario Outline: User checks orders in the store                                &amp#27;[90m# src/test/resources/features/myOrders.feature:9&amp#27;[0m
+[INFO ] 2024-08-05 20:04:06.836 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-05 20:04:20.977 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-05 20:04:25.694 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-05 20:04:25.722 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to login page&amp#27;[0m                                             &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_navigates_to_login_page()&amp#27;[0m
+
+    Embedding User checks orders in the store [image/png 104157 bytes]
+
+[INFO ] 2024-08-05 20:04:26.447 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User checks orders in the store
+[INFO ] 2024-08-05 20:04:26.461 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-05 20:04:26.461 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Navigated to login page
+[TRACE] 2024-08-05 20:04:26.857 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Entered login credentials and clicked login button
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser login to the application with &amp#27;[0m&amp#27;[32m&amp#27;[1m"johndrew@gmail.com"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"Password123"&amp#27;[0m &amp#27;[90m# org.demoStore.stepDefinitions.SearchProductStepDef.user_enters_product_name(java.lang.String,java.lang.String)&amp#27;[0m
+
+    Embedding User checks orders in the store [image/png 108908 bytes]
+
+[INFO ] 2024-08-05 20:04:30.211 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User checks orders in the store
+[TRACE] 2024-08-05 20:04:32.149 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-05 20:04:32.220 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Navigated to home page
+[INFO ] 2024-08-05 20:04:32.443 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-05 20:04:32.444 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Welcome Message: 
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser was redirected back to home page&amp#27;[0m                                      &amp#27;[90m# org.demoStore.stepDefinitions.SearchProductStepDef.user_was_redirected_back_to_home_page()&amp#27;[0m
+
+    Embedding User checks orders in the store [image/png 1865053 bytes]
+
+[INFO ] 2024-08-05 20:04:34.104 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User checks orders in the store
+[TRACE] 2024-08-05 20:04:35.841 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked my account link
+[INFO ] 2024-08-05 20:04:36.171 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/
+[TRACE] 2024-08-05 20:04:36.173 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Navigated to customer account page
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on my account&amp#27;[0m                                                  &amp#27;[90m# org.demoStore.stepDefinitions.CheckMyOrdersStepDef.user_clicks_on_my_account()&amp#27;[0m
+
+    Embedding User checks orders in the store [image/png 215561 bytes]
+
+[INFO ] 2024-08-05 20:04:37.632 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User checks orders in the store
+[TRACE] 2024-08-05 20:04:40.422 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked my orders link
+[INFO ] 2024-08-05 20:04:40.691 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/sales/order/history/
+[TRACE] 2024-08-05 20:04:40.692 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Navigated to orders page
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks on my orders&amp#27;[0m                                                   &amp#27;[90m# org.demoStore.stepDefinitions.CheckMyOrdersStepDef.user_clicks_on_my_orders()&amp#27;[0m
+
+    Embedding User checks orders in the store [image/png 204727 bytes]
+
+[INFO ] 2024-08-05 20:04:41.325 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User checks orders in the store
+last page : 3
+[TRACE] 2024-08-05 20:04:51.721 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Checked my orders
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser checks his orders&amp#27;[0m                                                    &amp#27;[90m# org.demoStore.stepDefinitions.CheckMyOrdersStepDef.user_checks_his_orders()&amp#27;[0m
+
+    Embedding User checks orders in the store [image/png 206302 bytes]
+
+[INFO ] 2024-08-05 20:04:52.318 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User checks orders in the store
+[TRACE] 2024-08-05 20:04:54.467 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked logout button
+[INFO ] 2024-08-05 20:04:54.684 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - logout successful
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser logs out&amp#27;[0m                                                              &amp#27;[90m# org.demoStore.stepDefinitions.CheckMyOrdersStepDef.user_logs_out()&amp#27;[0m
+
+    Embedding User checks orders in the store [image/png 82190 bytes]
+
+[INFO ] 2024-08-05 20:04:55.247 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User checks orders in the store
+[INFO ] 2024-08-05 20:04:55.252 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution over
+]]></system-out>
+    <system-err><![CDATA[Aug 05, 2024 8:04:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User registers with all fields&quot;, &quot;User creates an account in demo store application&quot;](9)" classname="org.demoStore.runner.Runner" time="50.673">
+    <system-out><![CDATA[
+@all @register @validRegister @smoke @regression
+Scenario: User registers with all fields         &amp#27;[90m# src/test/resources/features/register.feature:8&amp#27;[0m
+[INFO ] 2024-08-05 20:05:05.917 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-05 20:05:18.095 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-05 20:05:22.452 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Create account link clicked
+[INFO ] 2024-08-05 20:05:22.474 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/create/
+[TRACE] 2024-08-05 20:05:22.475 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Navigated to Create account page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to register page&amp#27;[0m          &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_navigates_to_register_page()&amp#27;[0m
+
+    Embedding User registers with all fields [image/png 106955 bytes]
+
+[INFO ] 2024-08-05 20:05:34.087 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with all fields
+[TRACE] 2024-08-05 20:05:34.228 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - First name entered
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters firstname &amp#27;[0m&amp#27;[32m&amp#27;[1m"John"&amp#27;[0m              &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_enters_firstname(java.lang.String)&amp#27;[0m
+
+    Embedding User registers with all fields [image/png 108382 bytes]
+
+[INFO ] 2024-08-05 20:05:36.714 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with all fields
+[TRACE] 2024-08-05 20:05:36.884 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Last name entered
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters lastname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Drew"&amp#27;[0m                &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_enters_lastname(java.lang.String)&amp#27;[0m
+
+    Embedding User registers with all fields [image/png 109328 bytes]
+
+[INFO ] 2024-08-05 20:05:37.430 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with all fields
+[TRACE] 2024-08-05 20:05:37.637 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Email entered
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters new random email&amp#27;[0m               &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_enters_new_random_email()&amp#27;[0m
+
+    Embedding User registers with all fields [image/png 112147 bytes]
+
+[INFO ] 2024-08-05 20:05:38.321 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with all fields
+[TRACE] 2024-08-05 20:05:38.569 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Password entered
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters new password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Password123"&amp#27;[0m     &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_enters_new_password(java.lang.String)&amp#27;[0m
+
+    Embedding User registers with all fields [image/png 112682 bytes]
+
+[INFO ] 2024-08-05 20:05:39.150 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with all fields
+[TRACE] 2024-08-05 20:05:39.304 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Confirm password entered
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters confirm password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Password123"&amp#27;[0m &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_enters_confirm_password(java.lang.String)&amp#27;[0m
+
+    Embedding User registers with all fields [image/png 112951 bytes]
+
+[INFO ] 2024-08-05 20:05:39.989 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with all fields
+[TRACE] 2024-08-05 20:05:44.301 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - create account button clicked
+[INFO ] 2024-08-05 20:05:44.320 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/
+[TRACE] 2024-08-05 20:05:44.321 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Navigated to customer page
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks create account button&amp#27;[0m          &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_clicks_create_account_button()&amp#27;[0m
+
+    Embedding User registers with all fields [image/png 144474 bytes]
+
+[INFO ] 2024-08-05 20:05:45.097 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with all fields
+[TRACE] 2024-08-05 20:05:45.175 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Customer account creation success message
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser was navigated back to customer page&amp#27;[0m  &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_was_navigated_back_to_customer_page()&amp#27;[0m
+
+    Embedding User registers with all fields [image/png 144698 bytes]
+
+[INFO ] 2024-08-05 20:05:45.956 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with all fields
+[TRACE] 2024-08-05 20:05:46.220 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - username is visible
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser name in welcome message &amp#27;[0m&amp#27;[32m&amp#27;[1m"John Drew"&amp#27;[0m   &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_name_in_welcome_message(java.lang.String)&amp#27;[0m
+
+    Embedding User registers with all fields [image/png 144593 bytes]
+
+[INFO ] 2024-08-05 20:05:46.824 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with all fields
+[INFO ] 2024-08-05 20:05:46.826 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution over
+]]></system-out>
+    <system-err><![CDATA[Aug 05, 2024 8:05:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User registers with invalid data&quot;, &quot;User creates an account in demo store application&quot;](10)" classname="org.demoStore.runner.Runner" time="34.937">
+    <system-out><![CDATA[
+@all @register @invalidRegisterCredentials
+Scenario Outline: User registers with invalid data    &amp#27;[90m# src/test/resources/features/register.feature:30&amp#27;[0m
+[INFO ] 2024-08-05 20:05:52.401 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-05 20:06:07.613 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-05 20:06:12.839 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Create account link clicked
+[INFO ] 2024-08-05 20:06:12.859 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/create/
+[TRACE] 2024-08-05 20:06:12.859 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Navigated to Create account page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to register page&amp#27;[0m               &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_navigates_to_register_page()&amp#27;[0m
+
+    Embedding User registers with invalid data [image/png 106955 bytes]
+
+[INFO ] 2024-08-05 20:06:14.962 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with invalid data
+[TRACE] 2024-08-05 20:06:15.139 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - First name entered
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters firstname &amp#27;[0m&amp#27;[32m&amp#27;[1m"John12"&amp#27;[0m                 &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_enters_firstname(java.lang.String)&amp#27;[0m
+
+    Embedding User registers with invalid data [image/png 108699 bytes]
+
+[INFO ] 2024-08-05 20:06:17.091 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with invalid data
+[TRACE] 2024-08-05 20:06:17.260 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Last name entered
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters lastname &amp#27;[0m&amp#27;[32m&amp#27;[1m"Drew12"&amp#27;[0m                   &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_enters_lastname(java.lang.String)&amp#27;[0m
+
+    Embedding User registers with invalid data [image/png 109923 bytes]
+
+[INFO ] 2024-08-05 20:06:17.789 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with invalid data
+[TRACE] 2024-08-05 20:06:17.979 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Email entered
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters new email &amp#27;[0m&amp#27;[32m&amp#27;[1m"johndrew@gmail.com"&amp#27;[0m      &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_enters_new_email(java.lang.String)&amp#27;[0m
+
+    Embedding User registers with invalid data [image/png 113086 bytes]
+
+[INFO ] 2024-08-05 20:06:18.598 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with invalid data
+[TRACE] 2024-08-05 20:06:18.773 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Password entered
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters new password &amp#27;[0m&amp#27;[32m&amp#27;[1m"wqassword"&amp#27;[0m            &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_enters_new_password(java.lang.String)&amp#27;[0m
+
+    Embedding User registers with invalid data [image/png 122762 bytes]
+
+[INFO ] 2024-08-05 20:06:19.395 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with invalid data
+[TRACE] 2024-08-05 20:06:19.584 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Confirm password entered
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters confirm password &amp#27;[0m&amp#27;[32m&amp#27;[1m"wqassword"&amp#27;[0m        &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_enters_confirm_password(java.lang.String)&amp#27;[0m
+
+    Embedding User registers with invalid data [image/png 122924 bytes]
+
+[INFO ] 2024-08-05 20:06:20.275 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with invalid data
+[TRACE] 2024-08-05 20:06:20.530 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - create account button clicked
+[INFO ] 2024-08-05 20:06:20.543 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/create/
+[TRACE] 2024-08-05 20:06:20.543 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Navigated to customer page
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks create account button&amp#27;[0m               &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_clicks_create_account_button()&amp#27;[0m
+
+    Embedding User registers with invalid data [image/png 122347 bytes]
+
+[INFO ] 2024-08-05 20:06:21.207 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with invalid data
+[TRACE] 2024-08-05 20:06:21.290 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Warning message recieved
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should get proper account warning message&amp#27;[0m &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_should_get_proper_account_warning_message()&amp#27;[0m
+
+    Embedding User registers with invalid data [image/png 122336 bytes]
+
+[INFO ] 2024-08-05 20:06:21.938 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with invalid data
+[INFO ] 2024-08-05 20:06:21.939 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution over
+]]></system-out>
+    <system-err><![CDATA[Aug 05, 2024 8:05:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User registers with invalid data&quot;, &quot;User creates an account in demo store application&quot;](11)" classname="org.demoStore.runner.Runner" time="34.063">
+    <system-out><![CDATA[
+@all @register @invalidRegisterCredentials
+Scenario Outline: User registers with invalid data    &amp#27;[90m# src/test/resources/features/register.feature:31&amp#27;[0m
+[INFO ] 2024-08-05 20:06:28.198 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-05 20:06:42.350 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-05 20:06:46.339 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Create account link clicked
+[INFO ] 2024-08-05 20:06:46.367 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/create/
+[TRACE] 2024-08-05 20:06:46.368 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Navigated to Create account page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to register page&amp#27;[0m               &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_navigates_to_register_page()&amp#27;[0m
+
+    Embedding User registers with invalid data [image/png 106955 bytes]
+
+[INFO ] 2024-08-05 20:06:46.948 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with invalid data
+[TRACE] 2024-08-05 20:06:47.153 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - First name entered
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters firstname &amp#27;[0m&amp#27;[32m&amp#27;[1m"45"&amp#27;[0m                     &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_enters_firstname(java.lang.String)&amp#27;[0m
+
+    Embedding User registers with invalid data [image/png 108248 bytes]
+
+[INFO ] 2024-08-05 20:06:50.134 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with invalid data
+[TRACE] 2024-08-05 20:06:50.245 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Last name entered
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters lastname &amp#27;[0m&amp#27;[32m&amp#27;[1m"12"&amp#27;[0m                       &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_enters_lastname(java.lang.String)&amp#27;[0m
+
+    Embedding User registers with invalid data [image/png 108593 bytes]
+
+[INFO ] 2024-08-05 20:06:51.287 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with invalid data
+[TRACE] 2024-08-05 20:06:51.625 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Email entered
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters new email &amp#27;[0m&amp#27;[32m&amp#27;[1m"johndrew@com"&amp#27;[0m            &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_enters_new_email(java.lang.String)&amp#27;[0m
+
+    Embedding User registers with invalid data [image/png 111029 bytes]
+
+[INFO ] 2024-08-05 20:06:52.069 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with invalid data
+[TRACE] 2024-08-05 20:06:52.193 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Password entered
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters new password &amp#27;[0m&amp#27;[32m&amp#27;[1m"wqa"&amp#27;[0m                  &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_enters_new_password(java.lang.String)&amp#27;[0m
+
+    Embedding User registers with invalid data [image/png 119431 bytes]
+
+[INFO ] 2024-08-05 20:06:52.897 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with invalid data
+[TRACE] 2024-08-05 20:06:53.118 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Confirm password entered
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters confirm password &amp#27;[0m&amp#27;[32m&amp#27;[1m"wqa"&amp#27;[0m              &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_enters_confirm_password(java.lang.String)&amp#27;[0m
+
+    Embedding User registers with invalid data [image/png 119507 bytes]
+
+[INFO ] 2024-08-05 20:06:53.631 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with invalid data
+[TRACE] 2024-08-05 20:06:53.819 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - create account button clicked
+[INFO ] 2024-08-05 20:06:53.829 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/create/
+[TRACE] 2024-08-05 20:06:53.829 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Navigated to customer page
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks create account button&amp#27;[0m               &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_clicks_create_account_button()&amp#27;[0m
+
+    Embedding User registers with invalid data [image/png 123661 bytes]
+
+[INFO ] 2024-08-05 20:06:54.379 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with invalid data
+[TRACE] 2024-08-05 20:06:54.541 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Warning message recieved
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should get proper account warning message&amp#27;[0m &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_should_get_proper_account_warning_message()&amp#27;[0m
+
+    Embedding User registers with invalid data [image/png 123849 bytes]
+
+[INFO ] 2024-08-05 20:06:55.519 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with invalid data
+[INFO ] 2024-08-05 20:06:55.521 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution over
+]]></system-out>
+    <system-err><![CDATA[Aug 05, 2024 8:06:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User registers with empty credentials&quot;, &quot;User creates an account in demo store application&quot;](12)" classname="org.demoStore.runner.Runner" time="33.947">
+    <system-out><![CDATA[
+@all @register @emptyCredentials @smoke @regression
+Scenario: User registers with empty credentials                                           &amp#27;[90m# src/test/resources/features/register.feature:34&amp#27;[0m
+[INFO ] 2024-08-05 20:07:04.371 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-05 20:07:18.222 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-05 20:07:23.042 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Create account link clicked
+[INFO ] 2024-08-05 20:07:23.058 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/create/
+[TRACE] 2024-08-05 20:07:23.059 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Navigated to Create account page
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to register page&amp#27;[0m                                                   &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_navigates_to_register_page()&amp#27;[0m
+
+    Embedding User registers with empty credentials [image/png 106955 bytes]
+
+[INFO ] 2024-08-05 20:07:23.772 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with empty credentials
+[INFO ] 2024-08-05 20:07:24.572 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Empty credentials
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser doesnot enters any details&amp#27;[0m                                                    &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_doesnot_enters_any_details()&amp#27;[0m
+
+    Embedding User registers with empty credentials [image/png 109743 bytes]
+
+[INFO ] 2024-08-05 20:07:25.803 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with empty credentials
+[TRACE] 2024-08-05 20:07:26.072 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - create account button clicked
+[INFO ] 2024-08-05 20:07:26.082 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/create/
+[TRACE] 2024-08-05 20:07:26.082 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Navigated to customer page
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser clicks create account button&amp#27;[0m                                                   &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_clicks_create_account_button()&amp#27;[0m
+
+    Embedding User registers with empty credentials [image/png 116657 bytes]
+
+[INFO ] 2024-08-05 20:07:26.650 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with empty credentials
+[TRACE] 2024-08-05 20:07:26.727 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Firstname warning message found
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser gets firstname warning message &amp#27;[0m&amp#27;[32m&amp#27;[1m"This is a required field."&amp#27;[0m                    &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_gets_firstname_warning_message(java.lang.String)&amp#27;[0m
+
+    Embedding User registers with empty credentials [image/png 116678 bytes]
+
+[INFO ] 2024-08-05 20:07:27.455 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with empty credentials
+[TRACE] 2024-08-05 20:07:27.572 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Lastname warning message found
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser gets lastname warning message &amp#27;[0m&amp#27;[32m&amp#27;[1m"This is a required field."&amp#27;[0m                      &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_gets_lastname_warning_message(java.lang.String)&amp#27;[0m
+
+    Embedding User registers with empty credentials [image/png 116748 bytes]
+
+[INFO ] 2024-08-05 20:07:28.211 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with empty credentials
+[TRACE] 2024-08-05 20:07:28.263 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Email warning message found
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser gets email error message &amp#27;[0m&amp#27;[32m&amp#27;[1m"This is a required field."&amp#27;[0m                           &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_gets_email_error_message(java.lang.String)&amp#27;[0m
+
+    Embedding User registers with empty credentials [image/png 116798 bytes]
+
+[INFO ] 2024-08-05 20:07:28.903 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with empty credentials
+[TRACE] 2024-08-05 20:07:29.060 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Password and Confirm Password warning message found
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser gets password and confirm password warning message &amp#27;[0m&amp#27;[32m&amp#27;[1m"This is a required field."&amp#27;[0m &amp#27;[90m# org.demoStore.stepDefinitions.RegsiterStepDef.user_gets_password_and_confirm_password_warning_message(java.lang.String)&amp#27;[0m
+
+    Embedding User registers with empty credentials [image/png 116874 bytes]
+
+[INFO ] 2024-08-05 20:07:29.660 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User registers with empty credentials
+[INFO ] 2024-08-05 20:07:29.661 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution over
+]]></system-out>
+    <system-err><![CDATA[Aug 05, 2024 8:07:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User searches a product&quot;, &quot;User searches for a product in demo store application&quot;](13)" classname="org.demoStore.runner.Runner" time="34.021">
+    <failure message="stale element reference: stale element not found in the current frame&#10;  (Session info: MicrosoftEdge=127.0.2651.86)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception&#10;Build info: version: &apos;4.22.0&apos;, revision: &apos;c5f3146703*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [38bed5cefbffdc0b1a364a5293b73a74, getElementText {id=f.65DBB2906B059C5C6A6B7CA5EC0DF365.d.4283C184EB96A31F99A61BA6E560E335.e.60}]&#10;Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51014}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51014/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: MicrosoftEdge on windows (38bed5cefbffdc0b1a364a5293b73a74)] -&gt; xpath: //span[contains(@class,&apos;logged-in&apos;)]]&#10;Session ID: 38bed5cefbffdc0b1a364a5293b73a74" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=127.0.2651.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [38bed5cefbffdc0b1a364a5293b73a74, getElementText {id=f.65DBB2906B059C5C6A6B7CA5EC0DF365.d.4283C184EB96A31F99A61BA6E560E335.e.60}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51014}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51014/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (38bed5cefbffdc0b1a364a5293b73a74)] -> xpath: //span[contains(@class,'logged-in')]]
+Session ID: 38bed5cefbffdc0b1a364a5293b73a74
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy41.getText(Unknown Source)
+	at org.demoStore.pages.HomePage.getWelcomeMessage(HomePage.java:70)
+	at org.demoStore.stepDefinitions.SearchProductStepDef.user_was_redirected_back_to_home_page(SearchProductStepDef.java:46)
+	at ✽.user was redirected back to home page(file:///D:/d/eclipse-workspace/DemoStoreTestng/src/test/resources/features/searchProduct.feature:10)
+]]></failure>
+    <system-out><![CDATA[
+@all @search @smoke @regression
+Scenario Outline: User searches a product                                        &amp#27;[90m# src/test/resources/features/searchProduct.feature:19&amp#27;[0m
+[INFO ] 2024-08-05 20:07:36.242 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-05 20:07:49.939 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-05 20:07:51.270 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-05 20:07:51.291 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser navigates to login page&amp#27;[0m                                             &amp#27;[90m# org.demoStore.stepDefinitions.LoginStepDef.user_navigates_to_login_page()&amp#27;[0m
+
+    Embedding User searches a product [image/png 101897 bytes]
+
+[INFO ] 2024-08-05 20:07:52.253 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User searches a product
+[INFO ] 2024-08-05 20:07:52.279 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-05 20:07:52.280 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Navigated to login page
+[TRACE] 2024-08-05 20:07:52.610 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Entered login credentials and clicked login button
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser login to the application with &amp#27;[0m&amp#27;[32m&amp#27;[1m"johndrew@gmail.com"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"Password123"&amp#27;[0m &amp#27;[90m# org.demoStore.stepDefinitions.SearchProductStepDef.user_enters_product_name(java.lang.String,java.lang.String)&amp#27;[0m
+
+    Embedding User searches a product [image/png 108934 bytes]
+
+[INFO ] 2024-08-05 20:07:56.012 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User searches a product
+[TRACE] 2024-08-05 20:07:58.331 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Clicked login button
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31muser was redirected back to home page&amp#27;[0m                                      &amp#27;[90m# org.demoStore.stepDefinitions.SearchProductStepDef.user_was_redirected_back_to_home_page()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: MicrosoftEdge=127.0.2651.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [38bed5cefbffdc0b1a364a5293b73a74, getElementText {id=f.65DBB2906B059C5C6A6B7CA5EC0DF365.d.4283C184EB96A31F99A61BA6E560E335.e.60}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51014}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51014/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (38bed5cefbffdc0b1a364a5293b73a74)] -> xpath: //span[contains(@class,'logged-in')]]
+Session ID: 38bed5cefbffdc0b1a364a5293b73a74
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy41.getText(Unknown Source)
+	at org.demoStore.pages.HomePage.getWelcomeMessage(HomePage.java:70)
+	at org.demoStore.stepDefinitions.SearchProductStepDef.user_was_redirected_back_to_home_page(SearchProductStepDef.java:46)
+	at ✽.user was redirected back to home page(file:///D:/d/eclipse-workspace/DemoStoreTestng/src/test/resources/features/searchProduct.feature:10)
+&amp#27;[0m
+
+    Embedding User searches a product [image/png 1866893 bytes]
+
+[INFO ] 2024-08-05 20:08:01.427 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for step: User searches a product
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser enters product name &amp#27;[0m&amp#27;[36m&amp#27;[1m"duffle bag"&amp#27;[0m                                     &amp#27;[90m# org.demoStore.stepDefinitions.SearchProductStepDef.user_enters_product_name(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser finds searched product &amp#27;[0m&amp#27;[36m&amp#27;[1m"duffle bag"&amp#27;[0m                                   &amp#27;[90m# org.demoStore.stepDefinitions.SearchProductStepDef.user_finds_searched_product(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser clicks product name link&amp#27;[0m                                              &amp#27;[90m# org.demoStore.stepDefinitions.SearchProductStepDef.user_clicks_product_name_link()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser checks product details&amp#27;[0m                                               &amp#27;[90m# org.demoStore.stepDefinitions.SearchProductStepDef.user_checks_product_details()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36muser logs out of the application&amp#27;[0m                                           &amp#27;[90m# org.demoStore.stepDefinitions.SearchProductStepDef.user_logs_out_of_the_application()&amp#27;[0m
+[INFO ] 2024-08-05 20:08:03.294 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - screenshot captured
+[DEBUG] 2024-08-05 20:08:03.294 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for failed scenario: User searches a product
+[INFO ] 2024-08-05 20:08:03.297 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution over
+]]></system-out>
+    <system-err><![CDATA[Aug 05, 2024 8:07:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 127, returning the closest version; found: 126; Please update to a Selenium version that supports CDP version 127
+]]></system-err>
+  </testcase>
+</testsuite>
