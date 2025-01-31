@@ -2,7 +2,8 @@
 Feature: User creates an account in demo store application
 
 Background:
-    Given user navigates to register page
+    Given user opens the application	
+    And user navigates to register page
 
   @register @validRegister @smoke @regression
   Scenario: User registers with all fields

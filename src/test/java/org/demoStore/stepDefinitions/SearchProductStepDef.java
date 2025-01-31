@@ -57,7 +57,7 @@ public class SearchProductStepDef extends AppUtilities {
 	
 	@When("user finds searched product {string}")
 	public void user_finds_searched_product(String product) {
-		searchProductPage = new SearchProductPage(driver, wait);
+		searchProductPage = new SearchProductPage(driver);
 		actualProductName = searchProductPage.getRandomSearchedProductName();
 		if(actualProductName.length() != 0) {
 			searchProductPage.getRandomSearchedProduct();

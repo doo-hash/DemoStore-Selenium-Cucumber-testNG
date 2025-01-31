@@ -1,0 +1,146 @@
+package org.demoStore.pages;
+
+import org.demoStore.utilities.HighlightElementClass;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
+
+public class SearchProductPage extends BasePage {
+
+	HighlightElementClass highlightElement = new HighlightElementClass();
+
+	
+	@FindBy(xpath = "//span[contains(@class,'base')]")
+	WebElement searchResultElement;
+	
+	@FindBy(xpath = "(//li[contains(@class,'product-item')])[1]")
+	WebElement searchedProduct;
+	
+	@FindBy(xpath = "(//li[contains(@class,'product-item')]//a[contains(@class,'product-item-link')])[1]")
+	WebElement searchedProductName;
+	
+	@FindBy(xpath = "(//li[contains(@class,'product-item')])[3]")
+	WebElement searchedPrdct;
+	
+	@FindBy(xpath = "(//li[contains(@class,'product-item')]//a[contains(@class,'product-item-link')])[3]")
+	WebElement searchedPrdctName;
+	
+	@FindBy(xpath = "(//li[contains(@class,'product-item')]//div[contains(text(),'L')])[1]")
+	WebElement productLSize;
+	
+	@FindBy(xpath = "(//li[contains(@class,'product-item')]//div[contains(@id,'option-label-color-93-item-56')])[1]")
+	WebElement productColor;
+	
+	@FindBy(xpath = "(//li[contains(@class,'product-item')]//button)[1]")
+	WebElement addToCartButton;
+
+	@FindBy(xpath = "//div[contains(@role,'alert')]")
+	WebElement addToCartSuccesMessage;
+
+	@FindBy(xpath = "//span[contains(@class,'counter-number')]")
+	WebElement cartCount;
+	
+	@FindBy(xpath = "//a[contains(@class,'showcart')]")
+	WebElement cartButton;
+
+	@FindBy(xpath = "//button[contains(@id,'top-cart-btn-checkout')]")
+	WebElement checkOutButton;
+	
+	//Constructor
+	public SearchProductPage(WebDriver driver) {
+		super(driver);
+	}
+
+	//check search value present in search heading
+	public boolean searchValuePresent(String search) {
+		highlightElement.highlightElement(driver, searchResultElement);
+		return searchResultElement.getText().contains(search);
+	}
+
+	//move to searched product element
+	public void getSearchedProduct() {
+		executor.executeScript("arguments[0].scrollIntoView();", searchedProduct);
+		wait.until(d -> searchedProduct.isDisplayed());
+		highlightElement.highlightElement(driver, searchedProduct);
+		actions.moveToElement(searchedProduct).build().perform();
+		actions.moveToElement(searchedProduct).build().perform();		
+		actions.moveToElement(searchedProduct).build().perform();
+	}
+	
+	//move to random searched product element
+	public void getRandomSearchedProduct() {
+		executor.executeScript("arguments[0].scrollIntoView();", searchedPrdct);
+		wait.until(d -> searchedPrdct.isDisplayed());
+		highlightElement.highlightElement(driver, searchedPrdct);
+		actions.moveToElement(searchedPrdct).build().perform();
+		actions.moveToElement(searchedPrdct).build().perform();		
+		actions.moveToElement(searchedPrdct).build().perform();
+	}
+
+	//check product name is same as random search entry
+	public String getRandomSearchedProductName() {
+		highlightElement.highlightElement(driver, searchedPrdctName);
+		return searchedProductName.getText();
+	}
+	
+	//check product name is same as search entry
+	public boolean searchedProductPresent(String search) {
+		highlightElement.highlightElement(driver, searchedProductName);
+		System.out.println(searchedProductName.getText());
+		return searchedProductName.getText().contains(search);
+	}
+
+	//click on product name
+	public void clickProductLink() {
+		highlightElement.highlightElement(driver, searchedPrdctName);
+		searchedPrdctName.click();
+	}
+	
+	//Select L size for product
+	public void selectLSize() {
+		highlightElement.highlightElement(driver, productLSize);
+		productLSize.click();
+	}
+	
+	//Select product color
+	public void selectProductColor() {
+		highlightElement.highlightElement(driver, productColor);
+		productColor.click();
+	}
+	
+	//click add to cart button
+	public void clickAddToCartButton() {
+		highlightElement.highlightElement(driver, addToCartButton);
+		addToCartButton.click();
+	}
+	
+	//check alert message if product is successfully added to cart 
+	public boolean isProductAddedToCartAlertPresent() {
+		executor.executeScript("arguments[0].scrollIntoView();", addToCartSuccesMessage);		
+		highlightElement.highlightElement(driver, addToCartSuccesMessage);
+		return addToCartSuccesMessage.isDisplayed();
+	}
+	
+	//check cart count is updated 
+	public boolean iscartCountUpdated() {
+		executor.executeScript("arguments[0].scrollIntoView();", cartButton);		
+		highlightElement.highlightElement(driver, cartButton);
+		return cartCount.isDisplayed();
+	}
+	
+	//click cart button
+	public void clickCartButton() {
+		cartButton.click();
+	}
+	
+	//click proceed to checkout button
+	public void clickCheckOutButton() {
+		wait.until(ExpectedConditions.elementToBeClickable(checkOutButton));
+		highlightElement.highlightElement(driver, checkOutButton);
+		checkOutButton.click();
+//		checkOutButton.click();
+	}
+	
+}

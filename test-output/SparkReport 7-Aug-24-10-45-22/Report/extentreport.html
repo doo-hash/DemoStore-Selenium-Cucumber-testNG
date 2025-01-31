@@ -1,0 +1,2143 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Demo Store Test Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Cucumber Automation Report - Demo Store</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Aug 7, 2024 10:45:22 am</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@register</a><a class="dropdown-item" href="#">@regression</a><a class="dropdown-item" href="#">@invalidCredentials</a><a class="dropdown-item" href="#">@myOrders</a><a class="dropdown-item" href="#">@validRegister</a><a class="dropdown-item" href="#">@search</a><a class="dropdown-item" href="#">@emptyCredentials</a><a class="dropdown-item" href="#">@invalidRegisterCredentials</a><a class="dropdown-item" href="#">@validCredentials</a><a class="dropdown-item" href="#">@login</a><a class="dropdown-item" href="#">@product</a><a class="dropdown-item" href="#">@smoke</a><a class="dropdown-item" href="#">@all</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">User buys a product in demo store application</p>
+            <p class="text-sm">
+              <span>10:45:24 am</span> / <span>00:01:41:690</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">User buys a product in demo store application</h5>
+<span class='badge badge-success'>08.07.2024 10:45:24 am</span>
+<span class='badge badge-danger'>08.07.2024 10:47:06 am</span>
+<span class='badge badge-default'>00:01:41:690</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>User buys a product</div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step fail-bg" title="BEFORE">
+                <span>org.demoStore.hooks.AllHooks.urlSetup()</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 15.588
+  (Session info: MicrosoftEdge=127.0.2651.86)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [aa6b27f6215b2e9a4e0fbca9540459ec, get {url=https://magento.softwaretestingboard.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59321}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59321/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa6b27f6215b2e9a4e0fbca9540459ec
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+	at org.demoStore.hooks.AllHooks.urlSetup(AllHooks.java:59)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="org.demoStore.stepDefinitions.LoginStepDef.user_navigates_to_login_page()">
+                <span>Given user navigates to login page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="org.demoStore.stepDefinitions.SearchProductStepDef.user_enters_product_name(java.lang.String,java.lang.String)">
+                <span>When user login to the application with "johndrew@gmail.com" and "Password123"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="org.demoStore.stepDefinitions.SearchProductStepDef.user_was_redirected_back_to_home_page()">
+                <span>And user was redirected back to home page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="org.demoStore.stepDefinitions.BuyProductStepDef.user_search_and_find_product(java.lang.String)">
+                <span>When user search and find product "Selene Yoga Hoodie"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="org.demoStore.stepDefinitions.BuyProductStepDef.user_selects_color_and_size()">
+                <span>And user selects color and size</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="org.demoStore.stepDefinitions.BuyProductStepDef.user_adds_product_to_cart()">
+                <span>And user adds product to cart</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="org.demoStore.stepDefinitions.BuyProductStepDef.user_clicks_checkout_button()">
+                <span>Then user clicks checkout button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="org.demoStore.stepDefinitions.BuyProductStepDef.user_verifies_address_and_order_details()">
+                <span>And user verifies address and order details</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="org.demoStore.stepDefinitions.BuyProductStepDef.user_clicks_place_order_button()">
+                <span>And user clicks place order button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="org.demoStore.stepDefinitions.BuyProductStepDef.user_checks_order_receipt(java.lang.String)">
+                <span>Then user checks order receipt "Selene Yoga Hoodie"</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="org.demoStore.stepDefinitions.BuyProductStepDef.user_signs_out_of_the_application()">
+                <span>And user signs out of the application</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step fail-bg" title="AFTER">
+                <span>org.demoStore.hooks.AllHooks.closeWindow(io.cucumber.java.Scenario)</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 10.000
+  (Session info: MicrosoftEdge=127.0.2651.86)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [aa6b27f6215b2e9a4e0fbca9540459ec, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59321}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59321/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa6b27f6215b2e9a4e0fbca9540459ec
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:321)
+	at org.demoStore.utilities.AppUtilities.captureScreenshot(AppUtilities.java:51)
+	at org.demoStore.hooks.AllHooks.closeWindow(AllHooks.java:74)
+</textarea>
+      
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="18"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">User login to demo store application</p>
+            <p class="text-sm">
+              <span>10:47:06 am</span> / <span>00:02:52:568</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">User login to demo store application</h5>
+<span class='badge badge-success'>08.07.2024 10:47:06 am</span>
+<span class='badge badge-danger'>08.07.2024 10:49:59 am</span>
+<span class='badge badge-default'>00:02:52:568</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> User wants to login and manage his/her account details and orders</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="19"><span class="badge log pass-bg mr-2">Pass</span>User logins with valid credentials</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.LoginStepDef.user_navigates_to_login_page()">
+                <span>Given user navigates to login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.LoginStepDef.user_enters_email(java.lang.String)">
+                <span>When user enters email "johnDrew@test.com"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.LoginStepDef.user_enters_password(java.lang.String)">
+                <span>And user enters password "Password123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.LoginStepDef.user_clicks_login_button()">
+                <span>And user clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.LoginStepDef.user_was_navigated_back_to_home_page()">
+                <span>Then user was navigated back to home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.LoginStepDef.user_name_is_visible(java.lang.String)">
+                <span>And user name is visible "John Drew"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="30"><span class="badge log fail-bg mr-2">Fail</span>User logins with invalid credentials</div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="31"><span class="badge log pass-bg mr-2">Pass</span>User logins with invalid credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user navigates to login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters email "feary@waq.com"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user enters password "Password123"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user should get proper warning message</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="41"><span class="badge log pass-bg mr-2">Pass</span>User logins with invalid credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user navigates to login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters email "johnDrew@test.com"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user enters password "wpasswed"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user should get proper warning message</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="51"><span class="badge log pass-bg mr-2">Pass</span>User logins with invalid credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user navigates to login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters email "johndrewos@test.com"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user enters password "wpasswed"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user should get proper warning message</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="61"><span class="badge log fail-bg mr-2">Fail</span>User logins with invalid credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step fail-bg">
+                    <span>org.demoStore.hooks.AllHooks.urlSetup()</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.412
+  (Session info: MicrosoftEdge=127.0.2651.86)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [08c0ea18a6d7f2936a339b6a1b346501, get {url=https://magento.softwaretestingboard.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:59515}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59515/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 08c0ea18a6d7f2936a339b6a1b346501
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
+	at org.demoStore.hooks.AllHooks.urlSetup(AllHooks.java:59)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Given user navigates to login page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When user enters email "john_@@test.com"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user enters password "wpa@!swed"</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And user clicks login button</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then user should get proper warning message</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="71"><span class="badge log pass-bg mr-2">Pass</span>User logins with empty credentials</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.LoginStepDef.user_navigates_to_login_page()">
+                <span>Given user navigates to login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.LoginStepDef.user_doesnot_enters_credentials()">
+                <span>When user doesnot enters credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.LoginStepDef.user_clicks_login_button()">
+                <span>And user clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.LoginStepDef.user_gets_email_warning_message(java.lang.String)">
+                <span>Then user gets email warning message "This is a required field."</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.LoginStepDef.user_gets_password_warning_message(java.lang.String)">
+                <span>And user gets password warning message "This is a required field."</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="81"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">User checks his/her orders in demo store application</p>
+            <p class="text-sm">
+              <span>10:49:59 am</span> / <span>00:00:34:630</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User checks his/her orders in demo store application</h5>
+<span class='badge badge-success'>08.07.2024 10:49:59 am</span>
+<span class='badge badge-danger'>08.07.2024 10:50:33 am</span>
+<span class='badge badge-default'>00:00:34:630</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=81</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5">user wants to check all his orders in this store</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="82"><span class="badge log pass-bg mr-2">Pass</span>User checks orders in the store</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.LoginStepDef.user_navigates_to_login_page()">
+                <span>Given user navigates to login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.SearchProductStepDef.user_enters_product_name(java.lang.String,java.lang.String)">
+                <span>When user login to the application with "johndrew@gmail.com" and "Password123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.SearchProductStepDef.user_was_redirected_back_to_home_page()">
+                <span>And user was redirected back to home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.CheckMyOrdersStepDef.user_clicks_on_my_account()">
+                <span>And user clicks on my account</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.CheckMyOrdersStepDef.user_clicks_on_my_orders()">
+                <span>And user clicks on my orders</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.CheckMyOrdersStepDef.user_checks_his_orders()">
+                <span>Then user checks his orders</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.CheckMyOrdersStepDef.user_logs_out()">
+                <span>And user logs out</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="94"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">User creates an account in demo store application</p>
+            <p class="text-sm">
+              <span>10:50:33 am</span> / <span>00:01:37:658</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User creates an account in demo store application</h5>
+<span class='badge badge-success'>08.07.2024 10:50:33 am</span>
+<span class='badge badge-danger'>08.07.2024 10:52:11 am</span>
+<span class='badge badge-default'>00:01:37:658</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=94</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="95"><span class="badge log pass-bg mr-2">Pass</span>User registers with all fields</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.RegsiterStepDef.user_navigates_to_register_page()">
+                <span>Given user navigates to register page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.RegsiterStepDef.user_enters_firstname(java.lang.String)">
+                <span>When user enters firstname "John"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.RegsiterStepDef.user_enters_lastname(java.lang.String)">
+                <span>And user enters lastname "Drew"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.RegsiterStepDef.user_enters_new_random_email()">
+                <span>And user enters new random email</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.RegsiterStepDef.user_enters_new_password(java.lang.String)">
+                <span>And user enters new password "Password123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.RegsiterStepDef.user_enters_confirm_password(java.lang.String)">
+                <span>And user enters confirm password "Password123"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.RegsiterStepDef.user_clicks_create_account_button()">
+                <span>And user clicks create account button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.RegsiterStepDef.user_was_navigated_back_to_customer_page()">
+                <span>Then user was navigated back to customer page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.RegsiterStepDef.user_name_in_welcome_message(java.lang.String)">
+                <span>And user name in welcome message "John Drew"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="109"><span class="badge log pass-bg mr-2">Pass</span>User registers with invalid data</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="110"><span class="badge log pass-bg mr-2">Pass</span>User registers with invalid data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user navigates to register page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters firstname "John12"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user enters lastname "Drew12"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user enters new email "johndrew@gmail.com"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user enters new password "wqassword"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user enters confirm password "wqassword"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks create account button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user should get proper account warning message</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="123"><span class="badge log pass-bg mr-2">Pass</span>User registers with invalid data</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user navigates to register page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters firstname "45"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user enters lastname "12"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user enters new email "johndrew@com"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user enters new password "wqa"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user enters confirm password "wqa"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks create account button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user should get proper account warning message</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="136"><span class="badge log pass-bg mr-2">Pass</span>User registers with empty credentials</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.RegsiterStepDef.user_navigates_to_register_page()">
+                <span>Given user navigates to register page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.RegsiterStepDef.user_doesnot_enters_any_details()">
+                <span>When user doesnot enters any details</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.RegsiterStepDef.user_clicks_create_account_button()">
+                <span>And user clicks create account button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.RegsiterStepDef.user_gets_firstname_warning_message(java.lang.String)">
+                <span>Then user gets firstname warning message "This is a required field."</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.RegsiterStepDef.user_gets_lastname_warning_message(java.lang.String)">
+                <span>And user gets lastname warning message "This is a required field."</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.RegsiterStepDef.user_gets_email_error_message(java.lang.String)">
+                <span>And user gets email error message "This is a required field."</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="org.demoStore.stepDefinitions.RegsiterStepDef.user_gets_password_and_confirm_password_warning_message(java.lang.String)">
+                <span>And user gets password and confirm password warning message "This is a required field."</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="148"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">User searches for a product in demo store application</p>
+            <p class="text-sm">
+              <span>10:52:11 am</span> / <span>00:00:36:635</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">User searches for a product in demo store application</h5>
+<span class='badge badge-success'>08.07.2024 10:52:11 am</span>
+<span class='badge badge-danger'>08.07.2024 10:52:48 am</span>
+<span class='badge badge-default'>00:00:36:635</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=148</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="149"><span class="badge log pass-bg mr-2">Pass</span>User searches a product</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="150"><span class="badge log pass-bg mr-2">Pass</span>User searches a product</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Given user navigates to login page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user login to the application with "johndrew@gmail.com" and "Password123"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user was redirected back to home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters product name "duffle bag"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user finds searched product "duffle bag"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user clicks product name link</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user checks product details</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And user logs out of the application</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">org.openqa.selenium.TimeoutException</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.TimeoutException</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:45:28 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='4'>org.demoStore.hooks.AllHooks.urlSetup()</a>
+<div class="">
+<span class="badge badge-default">User buys a product in demo store application.User buys a product.org.demoStore.hooks.AllHooks.urlSetup()</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:45:58 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='16'>org.demoStore.hooks.AllHooks.closeWindow(io.cucumber.java.Scenario)</a>
+<div class="">
+<span class="badge badge-default">User buys a product in demo store application.User buys a product.org.demoStore.hooks.AllHooks.closeWindow(io.cucumber.java.Scenario)</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:49:00 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='63'>org.demoStore.hooks.AllHooks.urlSetup()</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with invalid credentials.org.demoStore.hooks.AllHooks.urlSetup()</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">13</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+</span>
+<p class="name">@register</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@register</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:50:33 am</td>
+<td>
+<a href="#" class="linked" test-id='94' id='95'>User registers with all fields</a>
+<div class="">
+<span class="badge badge-default">User creates an account in demo store application.User registers with all fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:50:55 am</td>
+<td>
+<a href="#" class="linked" test-id='94' id='110'>User registers with invalid data</a>
+<div class="">
+<span class="badge badge-default">User creates an account in demo store application.User registers with invalid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:51:18 am</td>
+<td>
+<a href="#" class="linked" test-id='94' id='123'>User registers with invalid data</a>
+<div class="">
+<span class="badge badge-default">User creates an account in demo store application.User registers with invalid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:51:41 am</td>
+<td>
+<a href="#" class="linked" test-id='94' id='136'>User registers with empty credentials</a>
+<div class="">
+<span class="badge badge-default">User creates an account in demo store application.User registers with empty credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@regression</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@regression</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:45:24 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>User buys a product</a>
+<div class="">
+<span class="badge badge-default">User buys a product in demo store application.User buys a product</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:06 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='19'>User logins with valid credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with valid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:33 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='71'>User logins with empty credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with empty credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:59 am</td>
+<td>
+<a href="#" class="linked" test-id='81' id='82'>User checks orders in the store</a>
+<div class="">
+<span class="badge badge-default">User checks his/her orders in demo store application.User checks orders in the store</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:50:33 am</td>
+<td>
+<a href="#" class="linked" test-id='94' id='95'>User registers with all fields</a>
+<div class="">
+<span class="badge badge-default">User creates an account in demo store application.User registers with all fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:51:41 am</td>
+<td>
+<a href="#" class="linked" test-id='94' id='136'>User registers with empty credentials</a>
+<div class="">
+<span class="badge badge-default">User creates an account in demo store application.User registers with empty credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:52:11 am</td>
+<td>
+<a href="#" class="linked" test-id='148' id='150'>User searches a product</a>
+<div class="">
+<span class="badge badge-default">User searches for a product in demo store application.User searches a product</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@invalidCredentials</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@invalidCredentials</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:35 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='31'>User logins with invalid credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with invalid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:48:07 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='41'>User logins with invalid credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with invalid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:48:32 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='51'>User logins with invalid credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with invalid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:48:58 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='61'>User logins with invalid credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with invalid credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@myOrders</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@myOrders</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:59 am</td>
+<td>
+<a href="#" class="linked" test-id='81' id='82'>User checks orders in the store</a>
+<div class="">
+<span class="badge badge-default">User checks his/her orders in demo store application.User checks orders in the store</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@validRegister</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@validRegister</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:50:33 am</td>
+<td>
+<a href="#" class="linked" test-id='94' id='95'>User registers with all fields</a>
+<div class="">
+<span class="badge badge-default">User creates an account in demo store application.User registers with all fields</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@search</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@search</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:52:11 am</td>
+<td>
+<a href="#" class="linked" test-id='148' id='150'>User searches a product</a>
+<div class="">
+<span class="badge badge-default">User searches for a product in demo store application.User searches a product</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@emptyCredentials</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@emptyCredentials</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:33 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='71'>User logins with empty credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with empty credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:51:41 am</td>
+<td>
+<a href="#" class="linked" test-id='94' id='136'>User registers with empty credentials</a>
+<div class="">
+<span class="badge badge-default">User creates an account in demo store application.User registers with empty credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@invalidRegisterCredentials</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@invalidRegisterCredentials</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:50:55 am</td>
+<td>
+<a href="#" class="linked" test-id='94' id='110'>User registers with invalid data</a>
+<div class="">
+<span class="badge badge-default">User creates an account in demo store application.User registers with invalid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:51:18 am</td>
+<td>
+<a href="#" class="linked" test-id='94' id='123'>User registers with invalid data</a>
+<div class="">
+<span class="badge badge-default">User creates an account in demo store application.User registers with invalid data</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@validCredentials</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@validCredentials</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:06 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='19'>User logins with valid credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with valid credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>5</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@login</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@login</h4>
+<span status="pass" class='badge log pass-bg'>5 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:06 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='19'>User logins with valid credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with valid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:35 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='31'>User logins with invalid credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with invalid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:48:07 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='41'>User logins with invalid credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with invalid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:48:32 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='51'>User logins with invalid credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with invalid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:48:58 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='61'>User logins with invalid credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with invalid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:33 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='71'>User logins with empty credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with empty credentials</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@product</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@product</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:45:24 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>User buys a product</a>
+<div class="">
+<span class="badge badge-default">User buys a product in demo store application.User buys a product</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@smoke</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@smoke</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:45:24 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>User buys a product</a>
+<div class="">
+<span class="badge badge-default">User buys a product in demo store application.User buys a product</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:06 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='19'>User logins with valid credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with valid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:33 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='71'>User logins with empty credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with empty credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:59 am</td>
+<td>
+<a href="#" class="linked" test-id='81' id='82'>User checks orders in the store</a>
+<div class="">
+<span class="badge badge-default">User checks his/her orders in demo store application.User checks orders in the store</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:50:33 am</td>
+<td>
+<a href="#" class="linked" test-id='94' id='95'>User registers with all fields</a>
+<div class="">
+<span class="badge badge-default">User creates an account in demo store application.User registers with all fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:51:41 am</td>
+<td>
+<a href="#" class="linked" test-id='94' id='136'>User registers with empty credentials</a>
+<div class="">
+<span class="badge badge-default">User creates an account in demo store application.User registers with empty credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:52:11 am</td>
+<td>
+<a href="#" class="linked" test-id='148' id='150'>User searches a product</a>
+<div class="">
+<span class="badge badge-default">User searches for a product in demo store application.User searches a product</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>11</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@all</p>
+<p class="duration text-sm">13 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@all</h4>
+<span status="pass" class='badge log pass-bg'>11 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:45:24 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>User buys a product</a>
+<div class="">
+<span class="badge badge-default">User buys a product in demo store application.User buys a product</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:06 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='19'>User logins with valid credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with valid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:47:35 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='31'>User logins with invalid credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with invalid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:48:07 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='41'>User logins with invalid credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with invalid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:48:32 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='51'>User logins with invalid credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with invalid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>10:48:58 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='61'>User logins with invalid credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with invalid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:33 am</td>
+<td>
+<a href="#" class="linked" test-id='18' id='71'>User logins with empty credentials</a>
+<div class="">
+<span class="badge badge-default">User login to demo store application.User logins with empty credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:49:59 am</td>
+<td>
+<a href="#" class="linked" test-id='81' id='82'>User checks orders in the store</a>
+<div class="">
+<span class="badge badge-default">User checks his/her orders in demo store application.User checks orders in the store</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:50:33 am</td>
+<td>
+<a href="#" class="linked" test-id='94' id='95'>User registers with all fields</a>
+<div class="">
+<span class="badge badge-default">User creates an account in demo store application.User registers with all fields</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:50:55 am</td>
+<td>
+<a href="#" class="linked" test-id='94' id='110'>User registers with invalid data</a>
+<div class="">
+<span class="badge badge-default">User creates an account in demo store application.User registers with invalid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:51:18 am</td>
+<td>
+<a href="#" class="linked" test-id='94' id='123'>User registers with invalid data</a>
+<div class="">
+<span class="badge badge-default">User creates an account in demo store application.User registers with invalid data</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:51:41 am</td>
+<td>
+<a href="#" class="linked" test-id='94' id='136'>User registers with empty credentials</a>
+<div class="">
+<span class="badge badge-default">User creates an account in demo store application.User registers with empty credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:52:11 am</td>
+<td>
+<a href="#" class="linked" test-id='148' id='150'>User searches a product</a>
+<div class="">
+<span class="badge badge-default">User searches for a product in demo store application.User searches a product</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Aug 7, 2024 10:45:22 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Aug 7, 2024 10:52:48 am</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>3</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>2</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='60%'>
+<b>3</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='40%'><b>2</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='84%'><b>11</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='15%'><b>2</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='79%'><b>73</b> steps passed</small></div>
+<div>
+<small data-tooltip='3%'><b>3</b> steps failed,
+<b>16</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"User buys a product in demo store application":101.69,"User login to demo store application":172.568,"User checks his/her orders in demo store application":34.63,"User creates an account in demo store application":97.658,"User searches for a product in demo store application":36.635
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@register</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@regression</td>
+<td>6</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>85.714%</td>
+</tr>
+<tr>
+<td>@invalidCredentials</td>
+<td>3</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>75%</td>
+</tr>
+<tr>
+<td>@myOrders</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@validRegister</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@search</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@emptyCredentials</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@invalidRegisterCredentials</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@validCredentials</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@login</td>
+<td>5</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>83.333%</td>
+</tr>
+<tr>
+<td>@product</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@smoke</td>
+<td>6</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>85.714%</td>
+</tr>
+<tr>
+<td>@all</td>
+<td>11</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>84.615%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>AppName</td>
+<td>DemoStore</td>
+</tr>
+<tr>
+<td>user</td>
+<td>admin</td>
+</tr>
+<tr>
+<td>build</td>
+<td>0.1</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 3,
+failParent: 2,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 11,
+failChild: 2,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 73,
+failGrandChild: 3,
+warningGrandChild: 0,
+skipGrandChild: 16,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

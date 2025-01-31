@@ -461,3 +461,1126 @@
 [INFO ] 2024-08-05 20:08:03.294 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - screenshot captured
 [DEBUG] 2024-08-05 20:08:03.294 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Captured screenshot for failed scenario: User searches a product
 [INFO ] 2024-08-05 20:08:03.297 [TestNG-test-DemoStoreApp-1] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 21:24:23.824 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 21:24:30.574 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 21:24:35.497 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 21:24:35.521 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 21:24:35.728 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 21:24:35.857 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 21:24:38.481 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 21:24:38.809 [main] DemoStoreTestng - Navigated back to home page
+[INFO ] 2024-08-06 21:24:38.845 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[FATAL] 2024-08-06 21:24:39.020 [main] DemoStoreTestng - Username - John Drew not found
+[INFO ] 2024-08-06 21:24:39.025 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 21:41:30.442 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 21:41:50.649 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 21:41:52.512 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 21:41:52.576 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 21:41:52.799 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 21:41:53.035 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 21:41:57.446 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 21:41:57.612 [main] DemoStoreTestng - Navigated back to home page
+[INFO ] 2024-08-06 21:41:57.844 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[TRACE] 2024-08-06 21:41:59.770 [main] DemoStoreTestng - Username found
+[INFO ] 2024-08-06 21:41:59.777 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 21:42:32.935 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 21:42:47.467 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 21:42:51.211 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 21:42:51.286 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 21:42:51.531 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 21:42:51.734 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 21:42:53.922 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 21:42:54.113 [main] DemoStoreTestng - Navigated back to home page
+[INFO ] 2024-08-06 21:42:54.203 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[TRACE] 2024-08-06 21:42:55.878 [main] DemoStoreTestng - Username found
+[INFO ] 2024-08-06 21:42:55.885 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 21:43:45.696 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 21:43:59.325 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 21:44:04.468 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 21:44:04.487 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 21:44:04.820 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 21:44:05.007 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 21:44:07.589 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 21:44:07.615 [main] DemoStoreTestng - Navigated back to home page
+[INFO ] 2024-08-06 21:44:07.631 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[TRACE] 2024-08-06 21:44:10.734 [main] DemoStoreTestng - Username found
+[INFO ] 2024-08-06 21:44:10.741 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 21:44:17.062 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 21:44:30.209 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 21:44:35.367 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 21:44:35.401 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 21:44:35.708 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 21:44:35.889 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 21:44:37.598 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 21:44:37.923 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-06 21:44:37.926 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 21:44:46.053 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 21:44:58.161 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 21:45:02.346 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 21:45:02.377 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 21:45:02.629 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 21:45:02.845 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 21:45:06.052 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 21:45:06.431 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-06 21:45:06.434 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 21:45:12.530 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 21:45:44.743 [main] DemoStoreTestng - screenshot captured
+[DEBUG] 2024-08-06 21:45:44.744 [main] DemoStoreTestng - Captured screenshot for failed scenario: User logins with invalid credentials
+[INFO ] 2024-08-06 21:45:44.755 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 21:45:52.495 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 21:46:03.503 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 21:46:08.225 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 21:46:08.236 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 21:46:08.529 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 21:46:08.695 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 21:46:08.988 [main] DemoStoreTestng - Clicked login button
+[WARN ] 2024-08-06 21:46:09.114 [main] DemoStoreTestng - Warning message not found
+[INFO ] 2024-08-06 21:46:09.122 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 21:46:15.159 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 21:46:26.171 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 21:46:28.245 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 21:46:28.346 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-06 21:46:28.658 [main] DemoStoreTestng - Login with empty credentials
+[TRACE] 2024-08-06 21:46:31.287 [main] DemoStoreTestng - Clicked login button
+[INFO ] 2024-08-06 21:46:52.251 [main] DemoStoreTestng - screenshot captured
+[DEBUG] 2024-08-06 21:46:52.251 [main] DemoStoreTestng - Captured screenshot for failed scenario: User logins with empty credentials
+[INFO ] 2024-08-06 21:46:52.253 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 21:56:20.820 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 21:56:34.416 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 21:56:37.099 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 21:56:37.118 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 21:56:37.423 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 21:56:37.839 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 21:56:39.983 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 21:56:40.268 [main] DemoStoreTestng - Navigated back to home page
+[INFO ] 2024-08-06 21:56:40.309 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[TRACE] 2024-08-06 21:56:41.797 [main] DemoStoreTestng - Username found
+[INFO ] 2024-08-06 21:56:41.803 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 21:56:47.448 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 21:56:59.937 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 21:57:01.490 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 21:57:01.519 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 21:57:01.726 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 21:57:01.979 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 21:57:06.203 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 21:57:06.448 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-06 21:57:06.453 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 21:57:11.441 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 21:57:23.404 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 21:57:27.688 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 21:57:27.760 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 21:57:28.017 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 21:57:28.202 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 21:57:30.414 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 21:57:30.857 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-06 21:57:30.860 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 21:57:37.237 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 21:57:47.340 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 21:57:51.998 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 21:57:52.014 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 21:57:52.247 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 21:57:52.428 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 21:57:54.135 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 21:57:54.596 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-06 21:57:54.599 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 21:57:59.203 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 21:58:14.768 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 21:58:18.603 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 21:58:18.617 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 21:58:18.821 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 21:58:19.100 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 21:58:19.287 [main] DemoStoreTestng - Clicked login button
+[INFO ] 2024-08-06 21:58:19.501 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 21:58:24.199 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 21:58:39.951 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 21:58:43.630 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 21:58:43.659 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-06 21:58:44.146 [main] DemoStoreTestng - Login with empty credentials
+[TRACE] 2024-08-06 21:58:45.088 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 21:58:45.286 [main] DemoStoreTestng - Email warning message found
+[TRACE] 2024-08-06 21:58:45.485 [main] DemoStoreTestng - Password warning message found
+[INFO ] 2024-08-06 21:58:45.488 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 21:59:11.874 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 21:59:23.653 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 21:59:25.933 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 21:59:25.987 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 21:59:26.256 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 21:59:26.451 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 21:59:29.709 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 21:59:29.926 [main] DemoStoreTestng - Navigated back to home page
+[INFO ] 2024-08-06 21:59:30.051 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[TRACE] 2024-08-06 21:59:31.668 [main] DemoStoreTestng - Username found
+[INFO ] 2024-08-06 21:59:31.676 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 21:59:38.785 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 21:59:49.178 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 21:59:52.253 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 21:59:52.270 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 21:59:52.486 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 21:59:52.623 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 21:59:54.607 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 21:59:54.888 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-06 21:59:54.891 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 21:59:59.993 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:00:11.806 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:00:14.061 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:00:14.156 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:00:14.431 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:00:14.601 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:00:17.484 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:00:17.961 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-06 22:00:17.964 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:00:22.739 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:00:35.049 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:00:37.375 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:00:37.492 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:00:37.721 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:00:37.864 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:00:41.915 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:00:42.321 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-06 22:00:42.324 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:00:47.128 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:01:00.983 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:01:04.717 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:01:04.748 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:01:05.060 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:01:05.252 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:01:05.429 [main] DemoStoreTestng - Clicked login button
+[INFO ] 2024-08-06 22:01:05.787 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:01:13.073 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:01:24.834 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:01:26.648 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:01:26.720 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-06 22:01:27.101 [main] DemoStoreTestng - Login with empty credentials
+[TRACE] 2024-08-06 22:01:30.526 [main] DemoStoreTestng - Clicked login button
+[INFO ] 2024-08-06 22:02:11.311 [main] DemoStoreTestng - screenshot captured
+[DEBUG] 2024-08-06 22:02:11.311 [main] DemoStoreTestng - Captured screenshot for failed scenario: User logins with empty credentials
+[INFO ] 2024-08-06 22:02:11.311 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:03:26.041 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:03:38.222 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:03:41.503 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:03:41.529 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:03:41.846 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:03:42.007 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:03:45.491 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:03:45.517 [main] DemoStoreTestng - Navigated back to home page
+[INFO ] 2024-08-06 22:03:45.531 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[TRACE] 2024-08-06 22:03:47.026 [main] DemoStoreTestng - Username found
+[INFO ] 2024-08-06 22:03:47.032 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:03:55.728 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:04:07.952 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:04:10.433 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:04:10.554 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:04:10.848 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:04:11.030 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:04:13.809 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:04:14.220 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-06 22:04:14.224 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:04:19.803 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:04:31.605 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:04:35.074 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:04:35.111 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:04:35.390 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:04:35.571 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:04:40.066 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:04:40.528 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-06 22:04:40.533 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:04:47.617 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:04:57.152 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:05:00.820 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:05:00.853 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:05:01.174 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:05:01.310 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:05:02.850 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:05:03.274 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-06 22:05:03.276 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:05:10.402 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:05:17.432 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:05:23.819 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:05:23.933 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:05:24.121 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:05:24.270 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:05:24.494 [main] DemoStoreTestng - Clicked login button
+[INFO ] 2024-08-06 22:05:24.983 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:05:31.487 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:05:44.270 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:05:49.404 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:05:49.480 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-06 22:05:49.847 [main] DemoStoreTestng - Login with empty credentials
+[TRACE] 2024-08-06 22:05:50.037 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:05:50.231 [main] DemoStoreTestng - Email warning message found
+[TRACE] 2024-08-06 22:05:50.409 [main] DemoStoreTestng - Password warning message found
+[INFO ] 2024-08-06 22:05:50.411 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:09:32.017 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:09:49.487 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:09:54.570 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:09:54.591 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:09:54.782 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:09:54.875 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:09:56.734 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:09:56.856 [main] DemoStoreTestng - Navigated back to home page
+[INFO ] 2024-08-06 22:09:56.914 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[TRACE] 2024-08-06 22:09:59.263 [main] DemoStoreTestng - Username found
+[INFO ] 2024-08-06 22:09:59.271 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:10:04.385 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:10:15.481 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:10:17.619 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:10:18.040 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:10:18.274 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:10:18.442 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:10:21.472 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:10:21.779 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-06 22:10:21.783 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:10:27.400 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:10:38.123 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:10:39.864 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:10:39.958 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:10:40.157 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:10:40.413 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:10:44.895 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:10:45.337 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-06 22:10:45.340 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:10:49.112 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:11:02.006 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:11:03.742 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:11:03.780 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:11:04.139 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:11:04.343 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:11:07.534 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:11:08.013 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-06 22:11:08.016 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:11:11.902 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:11:23.816 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:11:27.401 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:11:27.435 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:11:27.678 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:11:27.848 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:11:28.012 [main] DemoStoreTestng - Clicked login button
+[INFO ] 2024-08-06 22:11:28.243 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:11:33.647 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:11:46.696 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:11:50.619 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:11:50.637 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-06 22:11:51.020 [main] DemoStoreTestng - Login with empty credentials
+[TRACE] 2024-08-06 22:11:51.203 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:11:51.416 [main] DemoStoreTestng - Email warning message found
+[TRACE] 2024-08-06 22:11:51.583 [main] DemoStoreTestng - Password warning message found
+[INFO ] 2024-08-06 22:11:51.586 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:12:16.032 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:12:26.942 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:12:29.232 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:12:29.323 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:12:29.531 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:12:29.661 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:12:32.754 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:12:32.887 [main] DemoStoreTestng - Navigated back to home page
+[INFO ] 2024-08-06 22:12:33.077 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[TRACE] 2024-08-06 22:12:35.050 [main] DemoStoreTestng - Username found
+[INFO ] 2024-08-06 22:12:35.057 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:12:40.336 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:12:49.951 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:12:55.039 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:12:55.055 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:12:55.353 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:12:55.519 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:12:57.152 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:12:57.555 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-06 22:12:57.558 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:13:02.041 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:13:14.514 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:13:18.166 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:13:18.207 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:13:18.482 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:13:18.601 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:13:20.292 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:13:20.679 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-06 22:13:20.687 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:13:25.147 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:13:37.576 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:13:39.308 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:13:39.323 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:13:39.818 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:13:39.994 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:13:42.832 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:13:43.238 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-06 22:13:43.240 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:13:49.334 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:13:59.681 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:14:01.828 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:14:01.840 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:14:02.176 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:14:02.365 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:14:02.534 [main] DemoStoreTestng - Clicked login button
+[INFO ] 2024-08-06 22:14:02.783 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:14:08.434 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:14:19.216 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:14:23.228 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:14:23.244 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-06 22:14:23.573 [main] DemoStoreTestng - Login with empty credentials
+[TRACE] 2024-08-06 22:14:23.748 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:14:23.945 [main] DemoStoreTestng - Email warning message found
+[TRACE] 2024-08-06 22:14:24.130 [main] DemoStoreTestng - Password warning message found
+[INFO ] 2024-08-06 22:14:24.133 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:14:59.124 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:15:10.792 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:15:12.987 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:15:13.066 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-06 22:15:13.090 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:15:13.090 [main] DemoStoreTestng - Navigated to login page
+[TRACE] 2024-08-06 22:15:13.571 [main] DemoStoreTestng - Entered login credentials and clicked login button
+[TRACE] 2024-08-06 22:15:16.646 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:15:18.282 [main] DemoStoreTestng - Navigated to home page
+[INFO ] 2024-08-06 22:15:18.297 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 22:15:18.298 [main] DemoStoreTestng - Welcome Message: Welcome, John Drew!
+[TRACE] 2024-08-06 22:15:20.624 [main] DemoStoreTestng - Clicked my account link
+[INFO ] 2024-08-06 22:15:20.827 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/
+[TRACE] 2024-08-06 22:15:20.827 [main] DemoStoreTestng - Navigated to customer account page
+[TRACE] 2024-08-06 22:15:22.496 [main] DemoStoreTestng - Clicked my orders link
+[INFO ] 2024-08-06 22:15:22.530 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/sales/order/history/
+[TRACE] 2024-08-06 22:15:22.531 [main] DemoStoreTestng - Navigated to orders page
+[TRACE] 2024-08-06 22:15:31.363 [main] DemoStoreTestng - Checked my orders
+[TRACE] 2024-08-06 22:15:33.729 [main] DemoStoreTestng - Clicked logout button
+[INFO ] 2024-08-06 22:15:33.784 [main] DemoStoreTestng - logout successful
+[INFO ] 2024-08-06 22:15:33.788 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:18:40.736 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:18:53.344 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:18:57.739 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:18:57.794 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:18:58.078 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:18:58.286 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:19:01.210 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:19:01.467 [main] DemoStoreTestng - Navigated back to home page
+[INFO ] 2024-08-06 22:19:01.565 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 22:19:03.105 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:19:09.669 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:19:21.320 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:19:22.900 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:19:23.001 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:19:23.206 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:19:23.377 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:19:27.545 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:19:28.078 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-06 22:19:28.081 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:19:34.336 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:19:47.612 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:19:52.537 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:19:52.566 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:19:52.898 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:19:53.058 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:19:54.924 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:19:55.371 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-06 22:19:55.374 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:20:01.477 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:20:13.638 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:20:15.023 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:20:15.045 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:20:15.434 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:20:15.604 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:20:18.777 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:20:19.299 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-06 22:20:19.301 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:20:26.707 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:20:38.805 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:20:49.985 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:20:50.093 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:20:50.468 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:20:50.653 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:20:50.840 [main] DemoStoreTestng - Clicked login button
+[INFO ] 2024-08-06 22:20:51.105 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:20:57.999 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:21:30.950 [main] DemoStoreTestng - screenshot captured
+[DEBUG] 2024-08-06 22:21:30.951 [main] DemoStoreTestng - Captured screenshot for failed scenario: User logins with empty credentials
+[INFO ] 2024-08-06 22:21:30.953 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:25:25.334 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:25:39.328 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:25:40.357 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:25:40.397 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:25:40.526 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:25:40.645 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:25:46.808 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:25:46.825 [main] DemoStoreTestng - Navigated back to home page
+[INFO ] 2024-08-06 22:25:46.834 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 22:25:47.292 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:26:34.072 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:26:44.920 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:26:48.286 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:26:48.298 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:26:48.460 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:26:48.556 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:26:50.545 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:26:50.632 [main] DemoStoreTestng - Navigated back to home page
+[INFO ] 2024-08-06 22:26:50.760 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 22:26:52.261 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:27:49.350 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:28:02.752 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:28:06.376 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:28:06.395 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:28:06.527 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:28:06.621 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:28:08.405 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:28:08.485 [main] DemoStoreTestng - Navigated back to home page
+[INFO ] 2024-08-06 22:28:08.555 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[ERROR] 2024-08-06 22:28:35.547 [main] DemoStoreTestng - username not found
+[ERROR] 2024-08-06 22:28:35.547 [main] DemoStoreTestng - Expected condition failed: waiting for visibility of [[EdgeDriver: MicrosoftEdge on windows (6da7e8aa7b4ec8c9bb5bcd01a8bd9e7e)] -> xpath: //span[contains(text(),'Welcome')]] (tried for 10 second(s) with 500 milliseconds interval)
+[INFO ] 2024-08-06 22:28:35.553 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:30:48.374 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:30:56.085 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:31:00.717 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:31:00.732 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:31:00.884 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:31:01.000 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:31:03.163 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:31:03.273 [main] DemoStoreTestng - Navigated back to home page
+[INFO ] 2024-08-06 22:31:03.327 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 22:31:04.815 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:32:27.845 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:32:38.813 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:32:43.660 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:32:43.671 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:32:43.853 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:32:44.047 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:32:46.723 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:32:46.888 [main] DemoStoreTestng - Navigated back to home page
+[INFO ] 2024-08-06 22:32:46.948 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-06 22:32:48.344 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-06 22:35:06.064 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-06 22:35:24.166 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-06 22:35:27.460 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-06 22:35:27.474 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-06 22:35:27.613 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-06 22:35:27.725 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-06 22:35:29.538 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-06 22:35:29.656 [main] DemoStoreTestng - Navigated back to home page
+[INFO ] 2024-08-06 22:35:29.689 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[ERROR] 2024-08-06 22:35:31.127 [main] DemoStoreTestng - Username - John Drew2 not found
+[INFO ] 2024-08-06 22:35:32.210 [main] DemoStoreTestng - screenshot captured
+[DEBUG] 2024-08-06 22:35:32.210 [main] DemoStoreTestng - Captured screenshot for failed scenario: User logins with valid credentials
+[INFO ] 2024-08-06 22:35:32.211 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 10:41:51.552 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 10:41:59.637 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 10:42:03.648 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-07 10:42:03.666 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-07 10:42:03.799 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-07 10:42:03.945 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-07 10:42:05.998 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-07 10:42:06.100 [main] DemoStoreTestng - Navigated back to home page
+[INFO ] 2024-08-07 10:42:06.117 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[ERROR] 2024-08-07 10:42:07.780 [main] DemoStoreTestng - Username - John Drew2 not found
+[INFO ] 2024-08-07 10:43:04.519 [main] DemoStoreTestng - screenshot captured
+[DEBUG] 2024-08-07 10:43:04.520 [main] DemoStoreTestng - Captured screenshot for failed scenario: User logins with valid credentials
+[INFO ] 2024-08-07 10:43:04.525 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 10:43:15.272 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 10:43:40.136 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 10:43:47.988 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-07 10:43:48.003 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-07 10:43:48.148 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-07 10:43:48.268 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-07 10:43:50.775 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-07 10:43:50.936 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-07 10:43:50.938 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 10:43:59.352 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 10:44:19.428 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 10:44:34.640 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-07 10:44:34.651 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-07 10:44:34.745 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-07 10:44:34.845 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-07 10:44:37.263 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-07 10:44:37.417 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-07 10:44:37.972 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 10:45:28.796 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 10:47:03.814 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 10:47:09.652 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 10:47:25.398 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 10:47:29.312 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-07 10:47:29.326 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-07 10:47:29.459 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-07 10:47:29.560 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-07 10:47:31.518 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-07 10:47:31.588 [main] DemoStoreTestng - Navigated back to home page
+[INFO ] 2024-08-07 10:47:31.642 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[TRACE] 2024-08-07 10:47:33.153 [main] DemoStoreTestng - Username found
+[INFO ] 2024-08-07 10:47:33.158 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 10:47:38.838 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 10:47:56.359 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 10:47:57.704 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-07 10:47:57.753 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-07 10:47:58.255 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-07 10:47:58.338 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-07 10:48:01.730 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-07 10:48:01.865 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-07 10:48:01.867 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 10:48:09.468 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 10:48:23.496 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 10:48:26.820 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-07 10:48:26.833 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-07 10:48:26.962 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-07 10:48:27.044 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-07 10:48:28.950 [main] DemoStoreTestng - Clicked login button
+[INFO ] 2024-08-07 10:48:29.054 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 10:48:34.571 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 10:48:49.333 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 10:48:53.359 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-07 10:48:53.370 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-07 10:48:53.477 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-07 10:48:53.568 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-07 10:48:55.119 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-07 10:48:55.268 [main] DemoStoreTestng - Warnig message found: The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.
+[INFO ] 2024-08-07 10:48:55.269 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 10:49:00.696 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 10:49:31.656 [main] DemoStoreTestng - screenshot captured
+[DEBUG] 2024-08-07 10:49:31.656 [main] DemoStoreTestng - Captured screenshot for failed scenario: User logins with invalid credentials
+[INFO ] 2024-08-07 10:49:31.658 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 10:49:36.296 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 10:49:50.125 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 10:49:55.713 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-07 10:49:55.732 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-07 10:49:55.976 [main] DemoStoreTestng - Login with empty credentials
+[TRACE] 2024-08-07 10:49:56.089 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-07 10:49:56.222 [main] DemoStoreTestng - Email warning message found
+[TRACE] 2024-08-07 10:49:56.308 [main] DemoStoreTestng - Password warning message found
+[INFO ] 2024-08-07 10:49:56.310 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 10:50:01.331 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 10:50:13.709 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 10:50:17.113 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-07 10:50:17.124 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-07 10:50:17.135 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-07 10:50:17.135 [main] DemoStoreTestng - Navigated to login page
+[TRACE] 2024-08-07 10:50:17.320 [main] DemoStoreTestng - Entered login credentials and clicked login button
+[TRACE] 2024-08-07 10:50:19.058 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-07 10:50:20.565 [main] DemoStoreTestng - Navigated to home page
+[INFO ] 2024-08-07 10:50:20.572 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-07 10:50:20.572 [main] DemoStoreTestng - Welcome Message: Welcome, John Drew!
+[TRACE] 2024-08-07 10:50:22.018 [main] DemoStoreTestng - Clicked my account link
+[INFO ] 2024-08-07 10:50:22.039 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/
+[TRACE] 2024-08-07 10:50:22.040 [main] DemoStoreTestng - Navigated to customer account page
+[TRACE] 2024-08-07 10:50:23.753 [main] DemoStoreTestng - Clicked my orders link
+[INFO ] 2024-08-07 10:50:23.844 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/sales/order/history/
+[TRACE] 2024-08-07 10:50:23.844 [main] DemoStoreTestng - Navigated to orders page
+[TRACE] 2024-08-07 10:50:29.029 [main] DemoStoreTestng - Checked my orders
+[TRACE] 2024-08-07 10:50:31.059 [main] DemoStoreTestng - Clicked logout button
+[INFO ] 2024-08-07 10:50:31.140 [main] DemoStoreTestng - logout successful
+[INFO ] 2024-08-07 10:50:31.141 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 10:50:36.557 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 10:50:45.811 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 10:50:49.935 [main] DemoStoreTestng - Create account link clicked
+[INFO ] 2024-08-07 10:50:49.953 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/create/
+[TRACE] 2024-08-07 10:50:49.953 [main] DemoStoreTestng - Navigated to Create account page
+[TRACE] 2024-08-07 10:50:50.097 [main] DemoStoreTestng - First name entered
+[TRACE] 2024-08-07 10:50:50.185 [main] DemoStoreTestng - Last name entered
+[TRACE] 2024-08-07 10:50:50.300 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-07 10:50:50.420 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-07 10:50:50.520 [main] DemoStoreTestng - Confirm password entered
+[TRACE] 2024-08-07 10:50:53.548 [main] DemoStoreTestng - create account button clicked
+[INFO ] 2024-08-07 10:50:53.553 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/
+[TRACE] 2024-08-07 10:50:53.553 [main] DemoStoreTestng - Navigated to customer page
+[TRACE] 2024-08-07 10:50:53.671 [main] DemoStoreTestng - Customer account creation success message
+[TRACE] 2024-08-07 10:50:53.735 [main] DemoStoreTestng - username is visible
+[INFO ] 2024-08-07 10:50:53.736 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 10:50:57.511 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 10:51:11.290 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 10:51:15.719 [main] DemoStoreTestng - Create account link clicked
+[INFO ] 2024-08-07 10:51:15.740 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/create/
+[TRACE] 2024-08-07 10:51:15.741 [main] DemoStoreTestng - Navigated to Create account page
+[TRACE] 2024-08-07 10:51:15.894 [main] DemoStoreTestng - First name entered
+[TRACE] 2024-08-07 10:51:15.987 [main] DemoStoreTestng - Last name entered
+[TRACE] 2024-08-07 10:51:16.131 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-07 10:51:16.244 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-07 10:51:16.327 [main] DemoStoreTestng - Confirm password entered
+[TRACE] 2024-08-07 10:51:16.426 [main] DemoStoreTestng - create account button clicked
+[INFO ] 2024-08-07 10:51:16.438 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/create/
+[TRACE] 2024-08-07 10:51:16.438 [main] DemoStoreTestng - Navigated to customer page
+[TRACE] 2024-08-07 10:51:16.482 [main] DemoStoreTestng - Warning message recieved
+[INFO ] 2024-08-07 10:51:16.485 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 10:51:20.594 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 10:51:32.709 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 10:51:37.297 [main] DemoStoreTestng - Create account link clicked
+[INFO ] 2024-08-07 10:51:37.315 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/create/
+[TRACE] 2024-08-07 10:51:37.315 [main] DemoStoreTestng - Navigated to Create account page
+[TRACE] 2024-08-07 10:51:37.424 [main] DemoStoreTestng - First name entered
+[TRACE] 2024-08-07 10:51:37.511 [main] DemoStoreTestng - Last name entered
+[TRACE] 2024-08-07 10:51:37.625 [main] DemoStoreTestng - Email entered
+[TRACE] 2024-08-07 10:51:37.717 [main] DemoStoreTestng - Password entered
+[TRACE] 2024-08-07 10:51:37.805 [main] DemoStoreTestng - Confirm password entered
+[TRACE] 2024-08-07 10:51:37.908 [main] DemoStoreTestng - create account button clicked
+[INFO ] 2024-08-07 10:51:37.914 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/create/
+[TRACE] 2024-08-07 10:51:37.914 [main] DemoStoreTestng - Navigated to customer page
+[TRACE] 2024-08-07 10:51:37.967 [main] DemoStoreTestng - Warning message recieved
+[INFO ] 2024-08-07 10:51:37.968 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 10:51:42.931 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 10:52:03.911 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 10:52:08.389 [main] DemoStoreTestng - Create account link clicked
+[INFO ] 2024-08-07 10:52:08.401 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/create/
+[TRACE] 2024-08-07 10:52:08.401 [main] DemoStoreTestng - Navigated to Create account page
+[INFO ] 2024-08-07 10:52:08.818 [main] DemoStoreTestng - Empty credentials
+[TRACE] 2024-08-07 10:52:08.923 [main] DemoStoreTestng - create account button clicked
+[INFO ] 2024-08-07 10:52:08.933 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/create/
+[TRACE] 2024-08-07 10:52:08.934 [main] DemoStoreTestng - Navigated to customer page
+[TRACE] 2024-08-07 10:52:08.976 [main] DemoStoreTestng - Firstname warning message found
+[TRACE] 2024-08-07 10:52:09.012 [main] DemoStoreTestng - Lastname warning message found
+[TRACE] 2024-08-07 10:52:09.050 [main] DemoStoreTestng - Email warning message found
+[TRACE] 2024-08-07 10:52:09.124 [main] DemoStoreTestng - Password and Confirm Password warning message found
+[INFO ] 2024-08-07 10:52:09.130 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 10:52:13.700 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 10:52:26.415 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 10:52:29.306 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-07 10:52:29.316 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-07 10:52:29.324 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-07 10:52:29.324 [main] DemoStoreTestng - Navigated to login page
+[TRACE] 2024-08-07 10:52:29.524 [main] DemoStoreTestng - Entered login credentials and clicked login button
+[TRACE] 2024-08-07 10:52:31.995 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-07 10:52:33.520 [main] DemoStoreTestng - Navigated to home page
+[INFO ] 2024-08-07 10:52:33.526 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-07 10:52:33.538 [main] DemoStoreTestng - Welcome Message: Welcome, John Drew!
+[TRACE] 2024-08-07 10:52:36.503 [main] DemoStoreTestng - Product name entered in search box: duffle bag
+[TRACE] 2024-08-07 10:52:40.308 [main] DemoStoreTestng - Product duffle bag found
+[TRACE] 2024-08-07 10:52:44.110 [main] DemoStoreTestng - Clicked products link
+[INFO ] 2024-08-07 10:52:44.121 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/impulse-duffle.html
+[TRACE] 2024-08-07 10:52:44.122 [main] DemoStoreTestng - Navigated to product page
+[TRACE] 2024-08-07 10:52:44.305 [main] DemoStoreTestng - Product is: Impulse Duffle
+[TRACE] 2024-08-07 10:52:45.710 [main] DemoStoreTestng - Clicked logout button
+[INFO ] 2024-08-07 10:52:45.716 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/logoutSuccess/
+[TRACE] 2024-08-07 10:52:45.722 [main] DemoStoreTestng - Navigated to logout page
+[INFO ] 2024-08-07 10:52:45.741 [main] DemoStoreTestng - logout successful
+[INFO ] 2024-08-07 10:52:45.742 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 18:09:26.785 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 18:09:34.964 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 18:09:41.791 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-07 18:09:41.855 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-07 18:09:41.884 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-07 18:09:41.884 [main] DemoStoreTestng - Navigated to login page
+[TRACE] 2024-08-07 18:09:42.383 [main] DemoStoreTestng - Entered login credentials and clicked login button
+[TRACE] 2024-08-07 18:09:46.466 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-07 18:09:47.722 [main] DemoStoreTestng - Navigated to home page
+[INFO ] 2024-08-07 18:09:47.748 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-07 18:09:47.748 [main] DemoStoreTestng - Welcome Message: Welcome, John Drew!
+[TRACE] 2024-08-07 18:09:54.629 [main] DemoStoreTestng - Searching for product: Selene Yoga Hoodie
+[TRACE] 2024-08-07 18:09:58.417 [main] DemoStoreTestng - Searched product found
+[TRACE] 2024-08-07 18:09:58.810 [main] DemoStoreTestng - Selecting color and size
+[TRACE] 2024-08-07 18:09:59.048 [main] DemoStoreTestng - Clicked add to cart button
+[TRACE] 2024-08-07 18:10:01.742 [main] DemoStoreTestng - Clicked cart button to proceed checkout
+[TRACE] 2024-08-07 18:10:08.181 [main] DemoStoreTestng - Clicked checkout button
+[INFO ] 2024-08-07 18:10:11.713 [main] DemoStoreTestng - screenshot captured
+[DEBUG] 2024-08-07 18:10:11.728 [main] DemoStoreTestng - Captured screenshot for failed scenario: User buys a product
+[INFO ] 2024-08-07 18:10:11.735 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 18:16:10.293 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 18:16:23.888 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 18:16:27.868 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-07 18:16:27.900 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-07 18:16:27.960 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-07 18:16:27.960 [main] DemoStoreTestng - Navigated to login page
+[TRACE] 2024-08-07 18:16:28.285 [main] DemoStoreTestng - Entered login credentials and clicked login button
+[TRACE] 2024-08-07 18:16:31.600 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-07 18:16:32.881 [main] DemoStoreTestng - Navigated to home page
+[INFO ] 2024-08-07 18:16:32.896 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-07 18:16:32.896 [main] DemoStoreTestng - Welcome Message: Welcome, John Drew!
+[TRACE] 2024-08-07 18:16:35.635 [main] DemoStoreTestng - Searching for product: Selene Yoga Hoodie
+[TRACE] 2024-08-07 18:16:37.901 [main] DemoStoreTestng - Searched product found
+[TRACE] 2024-08-07 18:16:38.232 [main] DemoStoreTestng - Selecting color and size
+[TRACE] 2024-08-07 18:16:38.357 [main] DemoStoreTestng - Clicked add to cart button
+[TRACE] 2024-08-07 18:16:40.625 [main] DemoStoreTestng - Clicked cart button to proceed checkout
+[TRACE] 2024-08-07 18:16:43.596 [main] DemoStoreTestng - Clicked checkout button
+[INFO ] 2024-08-07 18:16:43.710 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/checkout/
+[TRACE] 2024-08-07 18:16:43.710 [main] DemoStoreTestng - Navigated to checkout page
+[TRACE] 2024-08-07 18:16:52.255 [main] DemoStoreTestng - Clicked next button to see billing address
+[INFO ] 2024-08-07 18:16:52.270 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/checkout/#shipping
+[TRACE] 2024-08-07 18:16:54.754 [main] DemoStoreTestng - billing address is selected
+[TRACE] 2024-08-07 18:16:57.353 [main] DemoStoreTestng - Clicked place order button
+[INFO ] 2024-08-07 18:16:57.367 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/checkout/#payment
+[TRACE] 2024-08-07 18:16:57.367 [main] DemoStoreTestng - Navigated to orders page
+[TRACE] 2024-08-07 18:17:04.865 [main] DemoStoreTestng - order number is: 000013506
+[TRACE] 2024-08-07 18:17:08.042 [main] DemoStoreTestng - Clicked order number link
+[INFO ] 2024-08-07 18:17:08.149 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/sales/order/view/order_id/13501/
+[TRACE] 2024-08-07 18:17:08.149 [main] DemoStoreTestng - Navigated to order details page
+[TRACE] 2024-08-07 18:17:08.321 [main] DemoStoreTestng - Checked order details
+[ERROR] 2024-08-07 18:17:38.650 [main] DemoStoreTestng - timeout: Timed out receiving message from renderer: 30.000
+  (Session info: MicrosoftEdge=127.0.2651.86)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [3b075e8e07277795c093ecbe1bbb806b, clickElement {id=f.BD96AE910078D5869E2DBBE0E654D32A.d.5A8C8CCDFF7B560480D8ACCAB2D32028.e.427}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60660}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60660/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (3b075e8e07277795c093ecbe1bbb806b)] -> link text: Sign Out]
+Session ID: 3b075e8e07277795c093ecbe1bbb806b
+[INFO ] 2024-08-07 18:17:38.754 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 18:24:26.271 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 18:24:43.697 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 18:24:46.847 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-07 18:24:46.888 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-07 18:24:46.909 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-07 18:24:46.909 [main] DemoStoreTestng - Navigated to login page
+[TRACE] 2024-08-07 18:24:47.246 [main] DemoStoreTestng - Entered login credentials and clicked login button
+[TRACE] 2024-08-07 18:24:50.044 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-07 18:24:51.664 [main] DemoStoreTestng - Navigated to home page
+[INFO ] 2024-08-07 18:24:51.679 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-07 18:24:51.679 [main] DemoStoreTestng - Welcome Message: Welcome, John Drew!
+[TRACE] 2024-08-07 18:24:53.562 [main] DemoStoreTestng - Searching for product: Selene Yoga Hoodie
+[TRACE] 2024-08-07 18:25:05.562 [main] DemoStoreTestng - Searched product found
+[TRACE] 2024-08-07 18:25:06.015 [main] DemoStoreTestng - Selecting color and size
+[TRACE] 2024-08-07 18:25:06.214 [main] DemoStoreTestng - Clicked add to cart button
+[TRACE] 2024-08-07 18:25:09.442 [main] DemoStoreTestng - Clicked cart button to proceed checkout
+[TRACE] 2024-08-07 18:25:17.868 [main] DemoStoreTestng - Clicked checkout button
+[INFO ] 2024-08-07 18:25:17.903 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/checkout/
+[TRACE] 2024-08-07 18:25:17.903 [main] DemoStoreTestng - Navigated to checkout page
+[ERROR] 2024-08-07 18:25:30.861 [main] DemoStoreTestng - Expected condition failed: waiting for element to be clickable: [[EdgeDriver: MicrosoftEdge on windows (5a4491857fef8e243d3191bb2754f40e)] -> xpath: //div[contains(@class,'opc-block-summary')]//div[contains(@class,'options')]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61057}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61057/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a4491857fef8e243d3191bb2754f40e
+[ERROR] 2024-08-07 18:25:52.968 [main] DemoStoreTestng - no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'checkout')]"}
+  (Session info: MicrosoftEdge=127.0.2651.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5a4491857fef8e243d3191bb2754f40e, findElement {using=xpath, value=//button[contains(@class,'checkout')]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61057}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61057/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a4491857fef8e243d3191bb2754f40e
+[ERROR] 2024-08-07 18:26:13.089 [main] DemoStoreTestng - no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'order-number')]"}
+  (Session info: MicrosoftEdge=127.0.2651.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5a4491857fef8e243d3191bb2754f40e, findElement {using=xpath, value=//a[contains(@class,'order-number')]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61057}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61057/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a4491857fef8e243d3191bb2754f40e
+[ERROR] 2024-08-07 18:26:33.194 [main] DemoStoreTestng - no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'switch')]"}
+  (Session info: MicrosoftEdge=127.0.2651.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [5a4491857fef8e243d3191bb2754f40e, findElement {using=xpath, value=//button[contains(@class,'switch')]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61057}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61057/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5a4491857fef8e243d3191bb2754f40e
+[INFO ] 2024-08-07 18:26:33.215 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 19:07:08.916 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 19:07:20.253 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 19:07:22.587 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-07 19:07:22.618 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-07 19:07:22.634 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-07 19:07:22.634 [main] DemoStoreTestng - Navigated to login page
+[TRACE] 2024-08-07 19:07:22.821 [main] DemoStoreTestng - Entered login credentials and clicked login button
+[TRACE] 2024-08-07 19:07:26.879 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-07 19:07:28.772 [main] DemoStoreTestng - Navigated to home page
+[INFO ] 2024-08-07 19:07:28.779 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-07 19:07:28.779 [main] DemoStoreTestng - Welcome Message: Welcome, John Drew!
+[INFO ] 2024-08-07 19:07:28.784 [main] DemoStoreTestng - Check if cart is empty or not
+[INFO ] 2024-08-07 19:07:28.806 [main] DemoStoreTestng - cart count : 
+[INFO ] 2024-08-07 19:07:28.806 [main] DemoStoreTestng - Cart is empty
+[TRACE] 2024-08-07 19:07:30.890 [main] DemoStoreTestng - Searching for product: Selene Yoga Hoodie
+[TRACE] 2024-08-07 19:07:33.027 [main] DemoStoreTestng - Searched product found
+[TRACE] 2024-08-07 19:07:33.226 [main] DemoStoreTestng - Selecting color and size
+[TRACE] 2024-08-07 19:07:33.319 [main] DemoStoreTestng - Clicked add to cart button
+[TRACE] 2024-08-07 19:07:35.644 [main] DemoStoreTestng - Clicked cart button to proceed checkout
+[TRACE] 2024-08-07 19:07:35.756 [main] DemoStoreTestng - Clicked checkout button
+[ERROR] 2024-08-07 19:07:38.875 [main] DemoStoreTestng - Expected condition failed: waiting for org.demoStore.stepDefinitions.BuyProductStepDef$$Lambda/0x000001824b52a288@2ad7bd26 (tried for 1 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62404}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62404/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a12f222a62b0d7c79517d8621e9a7c50
+[ERROR] 2024-08-07 19:07:58.950 [main] DemoStoreTestng - Expected condition failed: waiting for org.demoStore.pages.CheckoutPage$$Lambda/0x000001824b52bd30@1132baa3 (tried for 10 second(s) with 500 milliseconds interval)
+[INFO ] 2024-08-07 19:08:18.336 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 19:08:31.048 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 19:08:34.872 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-07 19:08:34.888 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-07 19:08:34.903 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-07 19:08:34.903 [main] DemoStoreTestng - Navigated to login page
+[TRACE] 2024-08-07 19:08:35.116 [main] DemoStoreTestng - Entered login credentials and clicked login button
+[TRACE] 2024-08-07 19:08:37.235 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-07 19:08:39.043 [main] DemoStoreTestng - Navigated to home page
+[INFO ] 2024-08-07 19:08:39.058 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-07 19:08:39.058 [main] DemoStoreTestng - Welcome Message: Welcome, John Drew!
+[INFO ] 2024-08-07 19:08:39.058 [main] DemoStoreTestng - Check if cart is empty or not
+[INFO ] 2024-08-07 19:08:39.089 [main] DemoStoreTestng - cart count : 1
+[INFO ] 2024-08-07 19:08:39.165 [main] DemoStoreTestng - clicked cart button
+[INFO ] 2024-08-07 19:08:39.416 [main] DemoStoreTestng - clicked remove item icon
+[INFO ] 2024-08-07 19:08:39.417 [main] DemoStoreTestng - Modal to remove item is visible
+[INFO ] 2024-08-07 19:08:39.568 [main] DemoStoreTestng - clicked okay to confirm deletion
+[INFO ] 2024-08-07 19:08:40.907 [main] DemoStoreTestng - cart is now empty
+[INFO ] 2024-08-07 19:08:40.982 [main] DemoStoreTestng - closing the cart box
+[TRACE] 2024-08-07 19:08:43.348 [main] DemoStoreTestng - Searching for product: Selene Yoga Hoodie
+[TRACE] 2024-08-07 19:08:44.340 [main] DemoStoreTestng - Searched product found
+[TRACE] 2024-08-07 19:08:44.538 [main] DemoStoreTestng - Selecting color and size
+[TRACE] 2024-08-07 19:08:44.641 [main] DemoStoreTestng - Clicked add to cart button
+[TRACE] 2024-08-07 19:08:46.920 [main] DemoStoreTestng - Clicked cart button to proceed checkout
+[TRACE] 2024-08-07 19:08:53.699 [main] DemoStoreTestng - Clicked checkout button
+[ERROR] 2024-08-07 19:08:56.795 [main] DemoStoreTestng - Expected condition failed: waiting for org.demoStore.stepDefinitions.BuyProductStepDef$$Lambda/0x00000229cf52fdc8@7e0f9528 (tried for 1 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62463}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62463/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b1751b8450194583d5d15dd63f5efe9f
+[TRACE] 2024-08-07 19:08:59.476 [main] DemoStoreTestng - Clicked next button to see billing address
+[ERROR] 2024-08-07 19:09:00.577 [main] DemoStoreTestng - Expected condition failed: waiting for org.demoStore.stepDefinitions.BuyProductStepDef$$Lambda/0x00000229cf529c80@2026fbff (tried for 1 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62463}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62463/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b1751b8450194583d5d15dd63f5efe9f
+[TRACE] 2024-08-07 19:09:02.833 [main] DemoStoreTestng - Clicked place order button
+[INFO ] 2024-08-07 19:09:02.845 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/checkout/#payment
+[TRACE] 2024-08-07 19:09:02.845 [main] DemoStoreTestng - Navigated to orders page
+[TRACE] 2024-08-07 19:09:08.472 [main] DemoStoreTestng - order number is: 000013521
+[TRACE] 2024-08-07 19:09:11.466 [main] DemoStoreTestng - Clicked order number link
+[INFO ] 2024-08-07 19:09:11.571 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/sales/order/view/order_id/13516/
+[TRACE] 2024-08-07 19:09:11.571 [main] DemoStoreTestng - Navigated to order details page
+[TRACE] 2024-08-07 19:09:11.747 [main] DemoStoreTestng - Checked order details
+[TRACE] 2024-08-07 19:09:13.752 [main] DemoStoreTestng - Clicked logout button
+[INFO ] 2024-08-07 19:09:13.787 [main] DemoStoreTestng - logout successful
+[INFO ] 2024-08-07 19:09:13.791 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 19:12:14.218 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 19:12:44.303 [main] DemoStoreTestng - timeout: Timed out receiving message from renderer: 20.901
+  (Session info: MicrosoftEdge=127.0.2651.86)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [eeb5bf36c3f97164f5003d367f78a1b0, get {url=https://magento.softwaretestingboard.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62552}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62552/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eeb5bf36c3f97164f5003d367f78a1b0
+[TRACE] 2024-08-07 19:12:55.056 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-07 19:12:55.074 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-07 19:12:55.089 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-07 19:12:55.089 [main] DemoStoreTestng - Navigated to login page
+[TRACE] 2024-08-07 19:12:55.292 [main] DemoStoreTestng - Entered login credentials and clicked login button
+[TRACE] 2024-08-07 19:13:06.259 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-07 19:13:06.349 [main] DemoStoreTestng - Navigated to home page
+[INFO ] 2024-08-07 19:13:06.356 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-07 19:13:06.356 [main] DemoStoreTestng - Welcome Message: Welcome, John Drew!
+[INFO ] 2024-08-07 19:13:06.360 [main] DemoStoreTestng - Check if cart is empty or not
+[INFO ] 2024-08-07 19:13:06.381 [main] DemoStoreTestng - cart count : 
+[INFO ] 2024-08-07 19:13:06.381 [main] DemoStoreTestng - Cart is empty
+[TRACE] 2024-08-07 19:13:16.421 [main] DemoStoreTestng - Searching for product: Selene Yoga Hoodie
+[TRACE] 2024-08-07 19:13:17.142 [main] DemoStoreTestng - Searched product found
+[TRACE] 2024-08-07 19:13:17.332 [main] DemoStoreTestng - Selecting color and size
+[TRACE] 2024-08-07 19:13:17.441 [main] DemoStoreTestng - Clicked add to cart button
+[TRACE] 2024-08-07 19:13:21.099 [main] DemoStoreTestng - Clicked cart button to proceed checkout
+[TRACE] 2024-08-07 19:13:42.309 [main] DemoStoreTestng - Clicked checkout button
+[ERROR] 2024-08-07 19:13:45.407 [main] DemoStoreTestng - Expected condition failed: waiting for org.demoStore.stepDefinitions.BuyProductStepDef$$Lambda/0x000002318552fcf8@402b4f81 (tried for 1 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62552}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62552/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eeb5bf36c3f97164f5003d367f78a1b0
+[TRACE] 2024-08-07 19:13:48.087 [main] DemoStoreTestng - Clicked next button to see billing address
+[INFO ] 2024-08-07 19:13:48.119 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/checkout/#payment
+[TRACE] 2024-08-07 19:13:48.214 [main] DemoStoreTestng - billing address is selected
+[TRACE] 2024-08-07 19:13:50.421 [main] DemoStoreTestng - Clicked place order button
+[INFO ] 2024-08-07 19:13:50.434 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/checkout/#payment
+[TRACE] 2024-08-07 19:13:50.434 [main] DemoStoreTestng - Navigated to orders page
+[TRACE] 2024-08-07 19:14:07.181 [main] DemoStoreTestng - order number is: 000013523
+[TRACE] 2024-08-07 19:14:11.472 [main] DemoStoreTestng - Clicked order number link
+[INFO ] 2024-08-07 19:14:11.500 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/sales/order/view/order_id/13518/
+[TRACE] 2024-08-07 19:14:11.500 [main] DemoStoreTestng - Navigated to order details page
+[TRACE] 2024-08-07 19:14:11.644 [main] DemoStoreTestng - Checked order details
+[TRACE] 2024-08-07 19:14:16.047 [main] DemoStoreTestng - Clicked logout button
+[INFO ] 2024-08-07 19:14:16.099 [main] DemoStoreTestng - logout successful
+[INFO ] 2024-08-07 19:14:16.104 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 19:16:24.117 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 19:16:34.181 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 19:16:37.542 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-07 19:16:37.566 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-07 19:16:37.583 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-07 19:16:37.583 [main] DemoStoreTestng - Navigated to login page
+[TRACE] 2024-08-07 19:16:37.843 [main] DemoStoreTestng - Entered login credentials and clicked login button
+[TRACE] 2024-08-07 19:16:39.929 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-07 19:16:41.204 [main] DemoStoreTestng - Navigated to home page
+[INFO ] 2024-08-07 19:16:41.782 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-07 19:16:41.782 [main] DemoStoreTestng - Welcome Message: Welcome, John Drew!
+[INFO ] 2024-08-07 19:16:41.798 [main] DemoStoreTestng - Check if cart is empty or not
+[INFO ] 2024-08-07 19:16:41.845 [main] DemoStoreTestng - cart count : 
+[INFO ] 2024-08-07 19:16:41.845 [main] DemoStoreTestng - Cart is empty
+[TRACE] 2024-08-07 19:16:44.780 [main] DemoStoreTestng - Searching for product: Selene Yoga Hoodie
+[TRACE] 2024-08-07 19:16:45.441 [main] DemoStoreTestng - Searched product found
+[TRACE] 2024-08-07 19:16:45.657 [main] DemoStoreTestng - Selecting color and size
+[TRACE] 2024-08-07 19:16:45.747 [main] DemoStoreTestng - Clicked add to cart button
+[TRACE] 2024-08-07 19:16:48.077 [main] DemoStoreTestng - Clicked cart button to proceed checkout
+[TRACE] 2024-08-07 19:16:54.706 [main] DemoStoreTestng - Clicked checkout button
+[ERROR] 2024-08-07 19:16:57.769 [main] DemoStoreTestng - Expected condition failed: waiting for org.demoStore.stepDefinitions.BuyProductStepDef$$Lambda/0x000002503d52add0@2ad7bd26 (tried for 1 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62663}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62663/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 213fb5d927cb553ffdf165b47a1fff73
+[ERROR] 2024-08-07 19:16:59.483 [main] DemoStoreTestng - Expected condition failed: waiting for org.demoStore.stepDefinitions.BuyProductStepDef$$Lambda/0x000002503d534240@750cd36d (tried for 1 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62663}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62663/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 213fb5d927cb553ffdf165b47a1fff73
+[ERROR] 2024-08-07 19:17:03.248 [main] DemoStoreTestng - element click intercepted: Element <button class="action primary checkout" type="submit" data-bind="
+                        click: placeOrder,
+                        attr: {title: $t('Place Order')},
+                        css: {disabled: !isPlaceOrderActionAllowed()},
+                        enable: (getCode() == isChecked())
+                        " title="Place Order" style="border: 2px solid yellow;">...</button> is not clickable at point (863, 26). Other element would receive the click: <div class="checkout-billing-address">...</div>
+  (Session info: MicrosoftEdge=127.0.2651.86)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [213fb5d927cb553ffdf165b47a1fff73, clickElement {id=f.8A402D9FC4A4B351B5838C77CEBF617C.d.A2C40F9DAC4FD46D460CFC89AF6AD9EF.e.347}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62663}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62663/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (213fb5d927cb553ffdf165b47a1fff73)] -> xpath: //button[contains(@class,'checkout')]]
+Session ID: 213fb5d927cb553ffdf165b47a1fff73
+[TRACE] 2024-08-07 19:17:14.970 [main] DemoStoreTestng - order number is: 000013525
+[TRACE] 2024-08-07 19:17:16.626 [main] DemoStoreTestng - Clicked order number link
+[INFO ] 2024-08-07 19:17:16.650 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/sales/order/view/order_id/13520/
+[TRACE] 2024-08-07 19:17:16.650 [main] DemoStoreTestng - Navigated to order details page
+[TRACE] 2024-08-07 19:17:16.798 [main] DemoStoreTestng - Checked order details
+[TRACE] 2024-08-07 19:17:18.551 [main] DemoStoreTestng - Clicked logout button
+[INFO ] 2024-08-07 19:17:18.594 [main] DemoStoreTestng - logout successful
+[INFO ] 2024-08-07 19:17:18.594 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 19:18:03.495 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 19:18:14.795 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 19:18:20.228 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-07 19:18:20.259 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-07 19:18:20.280 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-07 19:18:20.281 [main] DemoStoreTestng - Navigated to login page
+[TRACE] 2024-08-07 19:18:20.530 [main] DemoStoreTestng - Entered login credentials and clicked login button
+[TRACE] 2024-08-07 19:18:22.520 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-07 19:18:23.783 [main] DemoStoreTestng - Navigated to home page
+[INFO ] 2024-08-07 19:18:23.790 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-07 19:18:23.791 [main] DemoStoreTestng - Welcome Message: Welcome, John Drew!
+[INFO ] 2024-08-07 19:18:23.795 [main] DemoStoreTestng - Check if cart is empty or not
+[INFO ] 2024-08-07 19:18:23.807 [main] DemoStoreTestng - cart count : 
+[INFO ] 2024-08-07 19:18:23.807 [main] DemoStoreTestng - Cart is empty
+[TRACE] 2024-08-07 19:18:27.795 [main] DemoStoreTestng - Searching for product: Selene Yoga Hoodie
+[TRACE] 2024-08-07 19:18:28.477 [main] DemoStoreTestng - Searched product found
+[TRACE] 2024-08-07 19:18:28.699 [main] DemoStoreTestng - Selecting color and size
+[TRACE] 2024-08-07 19:18:29.949 [main] DemoStoreTestng - Clicked add to cart button
+[TRACE] 2024-08-07 19:18:32.198 [main] DemoStoreTestng - Clicked cart button to proceed checkout
+[TRACE] 2024-08-07 19:18:40.622 [main] DemoStoreTestng - Clicked checkout button
+[ERROR] 2024-08-07 19:18:43.709 [main] DemoStoreTestng - Expected condition failed: waiting for org.demoStore.stepDefinitions.BuyProductStepDef$$Lambda/0x000002e09052fc58@2ad7bd26 (tried for 1 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62734}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62734/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c1b99133e61cb30047ab0bed2a524faf
+[ERROR] 2024-08-07 19:18:45.406 [main] DemoStoreTestng - Expected condition failed: waiting for org.demoStore.stepDefinitions.BuyProductStepDef$$Lambda/0x000002e090529a40@750cd36d (tried for 1 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62734}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62734/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c1b99133e61cb30047ab0bed2a524faf
+[TRACE] 2024-08-07 19:18:47.758 [main] DemoStoreTestng - Clicked place order button
+[INFO ] 2024-08-07 19:18:47.769 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/checkout/#payment
+[TRACE] 2024-08-07 19:18:47.769 [main] DemoStoreTestng - Navigated to orders page
+[TRACE] 2024-08-07 19:18:52.521 [main] DemoStoreTestng - order number is: 000013526
+[TRACE] 2024-08-07 19:18:54.216 [main] DemoStoreTestng - Clicked order number link
+[INFO ] 2024-08-07 19:18:54.235 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/sales/order/view/order_id/13521/
+[TRACE] 2024-08-07 19:18:54.235 [main] DemoStoreTestng - Navigated to order details page
+[TRACE] 2024-08-07 19:18:54.374 [main] DemoStoreTestng - Checked order details
+[TRACE] 2024-08-07 19:18:55.981 [main] DemoStoreTestng - Clicked logout button
+[INFO ] 2024-08-07 19:18:56.018 [main] DemoStoreTestng - logout successful
+[INFO ] 2024-08-07 19:18:56.023 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 19:20:09.589 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 19:20:22.414 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 19:20:27.235 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-07 19:20:27.244 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-07 19:20:27.253 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-07 19:20:27.253 [main] DemoStoreTestng - Navigated to login page
+[TRACE] 2024-08-07 19:20:27.456 [main] DemoStoreTestng - Entered login credentials and clicked login button
+[TRACE] 2024-08-07 19:20:29.653 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-07 19:20:31.187 [main] DemoStoreTestng - Navigated to home page
+[INFO ] 2024-08-07 19:20:31.203 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-07 19:20:31.203 [main] DemoStoreTestng - Welcome Message: Welcome, John Drew!
+[INFO ] 2024-08-07 19:20:31.203 [main] DemoStoreTestng - Check if cart is empty or not
+[INFO ] 2024-08-07 19:20:31.236 [main] DemoStoreTestng - cart count : 
+[INFO ] 2024-08-07 19:20:31.236 [main] DemoStoreTestng - Cart is empty
+[TRACE] 2024-08-07 19:20:33.144 [main] DemoStoreTestng - Searching for product: Selene Yoga Hoodie
+[TRACE] 2024-08-07 19:20:34.346 [main] DemoStoreTestng - Searched product found
+[TRACE] 2024-08-07 19:20:34.565 [main] DemoStoreTestng - Selecting color and size
+[TRACE] 2024-08-07 19:20:34.653 [main] DemoStoreTestng - Clicked add to cart button
+[TRACE] 2024-08-07 19:20:36.997 [main] DemoStoreTestng - Clicked cart button to proceed checkout
+[TRACE] 2024-08-07 19:20:45.503 [main] DemoStoreTestng - Clicked checkout button
+[ERROR] 2024-08-07 19:20:48.594 [main] DemoStoreTestng - Expected condition failed: waiting for org.demoStore.stepDefinitions.BuyProductStepDef$$Lambda/0x000002169052add0@3cc3f13e (tried for 1 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62806}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62806/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a6a873c08be3207b10b0a20f7fa5b47
+[ERROR] 2024-08-07 19:20:50.299 [main] DemoStoreTestng - Expected condition failed: waiting for org.demoStore.stepDefinitions.BuyProductStepDef$$Lambda/0x0000021690534240@2c8ff67 (tried for 1 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62806}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62806/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8a6a873c08be3207b10b0a20f7fa5b47
+[ERROR] 2024-08-07 19:20:54.444 [main] DemoStoreTestng - element click intercepted: Element <button class="action primary checkout" type="submit" data-bind="
+                        click: placeOrder,
+                        attr: {title: $t('Place Order')},
+                        css: {disabled: !isPlaceOrderActionAllowed()},
+                        enable: (getCode() == isChecked())
+                        " title="Place Order" style="border: 2px solid yellow;">...</button> is not clickable at point (863, 26). Other element would receive the click: <div class="checkout-billing-address">...</div>
+  (Session info: MicrosoftEdge=127.0.2651.86)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [8a6a873c08be3207b10b0a20f7fa5b47, clickElement {id=f.74B4D5799E0DCAA606024CAA63899C9D.d.7D5B72C5E4044EBB3258FBF6034579E8.e.352}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62806}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62806/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (8a6a873c08be3207b10b0a20f7fa5b47)] -> xpath: //button[contains(@class,'checkout')]]
+Session ID: 8a6a873c08be3207b10b0a20f7fa5b47
+[TRACE] 2024-08-07 19:21:01.647 [main] DemoStoreTestng - order number is: 000013528
+[TRACE] 2024-08-07 19:21:03.650 [main] DemoStoreTestng - Clicked order number link
+[INFO ] 2024-08-07 19:21:03.667 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/sales/order/view/order_id/13523/
+[TRACE] 2024-08-07 19:21:03.667 [main] DemoStoreTestng - Navigated to order details page
+[TRACE] 2024-08-07 19:21:03.800 [main] DemoStoreTestng - Checked order details
+[TRACE] 2024-08-07 19:21:05.973 [main] DemoStoreTestng - Clicked logout button
+[INFO ] 2024-08-07 19:21:06.012 [main] DemoStoreTestng - logout successful
+[INFO ] 2024-08-07 19:21:06.012 [main] DemoStoreTestng - Scenario execution over
+[INFO ] 2024-08-07 19:23:54.426 [main] DemoStoreTestng - Scenario execution started
+[INFO ] 2024-08-07 19:24:06.056 [main] DemoStoreTestng - Opens the application
+[TRACE] 2024-08-07 19:24:10.559 [main] DemoStoreTestng - Clicked login link
+[INFO ] 2024-08-07 19:24:10.576 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[INFO ] 2024-08-07 19:24:10.592 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/
+[TRACE] 2024-08-07 19:24:10.592 [main] DemoStoreTestng - Navigated to login page
+[TRACE] 2024-08-07 19:24:10.808 [main] DemoStoreTestng - Entered login credentials and clicked login button
+[TRACE] 2024-08-07 19:24:13.831 [main] DemoStoreTestng - Clicked login button
+[TRACE] 2024-08-07 19:24:15.603 [main] DemoStoreTestng - Navigated to home page
+[INFO ] 2024-08-07 19:24:15.613 [main] DemoStoreTestng - https://magento.softwaretestingboard.com/
+[INFO ] 2024-08-07 19:24:15.614 [main] DemoStoreTestng - Welcome Message: Welcome, John Drew!
+[INFO ] 2024-08-07 19:24:15.617 [main] DemoStoreTestng - Check if cart is empty or not
+[INFO ] 2024-08-07 19:24:15.641 [main] DemoStoreTestng - cart count : 
+[INFO ] 2024-08-07 19:24:15.641 [main] DemoStoreTestng - Cart is empty
+[TRACE] 2024-08-07 19:24:19.582 [main] DemoStoreTestng - Searching for product: Selene Yoga Hoodie
+[TRACE] 2024-08-07 19:24:20.561 [main] DemoStoreTestng - Searched product found
+[TRACE] 2024-08-07 19:24:20.761 [main] DemoStoreTestng - Selecting color and size
+[TRACE] 2024-08-07 19:24:20.873 [main] DemoStoreTestng - Clicked add to cart button
+[TRACE] 2024-08-07 19:24:23.210 [main] DemoStoreTestng - Clicked cart button to proceed checkout
+[TRACE] 2024-08-07 19:24:32.783 [main] DemoStoreTestng - Clicked checkout button
+[ERROR] 2024-08-07 19:24:35.874 [main] DemoStoreTestng - Expected condition failed: waiting for org.demoStore.stepDefinitions.BuyProductStepDef$$Lambda/0x000001d7b352fc58@2ad7bd26 (tried for 1 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62905}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62905/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c2dc16b628745afd68f9de34f8a0664
+[ERROR] 2024-08-07 19:24:37.324 [main] DemoStoreTestng - element click intercepted: Element <div class="title" data-role="title" role="tab" aria-selected="false" aria-expanded="true" tabindex="0" style="border: 2px solid yellow;">...</div> is not clickable at point (1169, 262). Other element would receive the click: <div id="checkout-loader" data-role="checkout-loader" class="loading-mask">...</div>
+  (Session info: MicrosoftEdge=127.0.2651.86)
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0c2dc16b628745afd68f9de34f8a0664, clickElement {id=f.628F45EF1D8BBF437D8C34768294F2F9.d.47EC6464EA624D2915851985E42806B8.e.306}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62905}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62905/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (0c2dc16b628745afd68f9de34f8a0664)] -> xpath: //div[contains(@class,'opc-block-summary')]//div[contains(@class,'title')]]
+Session ID: 0c2dc16b628745afd68f9de34f8a0664
+[ERROR] 2024-08-07 19:25:00.408 [main] DemoStoreTestng - no such element: Unable to locate element: {"method":"xpath","selector":"//button[contains(@class,'checkout')]"}
+  (Session info: MicrosoftEdge=127.0.2651.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0c2dc16b628745afd68f9de34f8a0664, findElement {value=//button[contains(@class,'checkout')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62905}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62905/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c2dc16b628745afd68f9de34f8a0664
+[ERROR] 2024-08-07 19:25:20.523 [main] DemoStoreTestng - no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@class,'order-number')]"}
+  (Session info: MicrosoftEdge=127.0.2651.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0c2dc16b628745afd68f9de34f8a0664, findElement {value=//a[contains(@class,'order-number')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 127.0.2651.86, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62905}, msedge: {msedgedriverVersion: 127.0.2651.86 (ac31d8b82969..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62905/devtoo..., se:cdpVersion: 127.0.2651.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c2dc16b628745afd68f9de34f8a0664
+[TRACE] 2024-08-07 19:25:59.588 [main] DemoStoreTestng - Clicked logout button
+[INFO ] 2024-08-07 19:25:59.626 [main] DemoStoreTestng - logout successful
+[INFO ] 2024-08-07 19:25:59.632 [main] DemoStoreTestng - Scenario execution over

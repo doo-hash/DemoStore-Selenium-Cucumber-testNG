@@ -3,7 +3,8 @@ Feature: User checks his/her orders in demo store application
 user wants to check all his orders in this store
 
 Background:
-    Given user navigates to login page
+    Given user opens the application	
+    And user navigates to login page
 
   @myOrders @smoke @regression
   Scenario Outline: User checks orders in the store

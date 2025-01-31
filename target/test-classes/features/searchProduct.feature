@@ -2,7 +2,8 @@
 Feature: User searches for a product in demo store application
 
 Background:
-    Given user navigates to login page
+    Given user opens the application	
+    And user navigates to login page
 
   @search @smoke @regression
   Scenario Outline: User searches a product
@@ -15,5 +16,5 @@ Background:
     And user logs out of the application
 
 	Examples:
-	| product            |
+	| product     |
   |  duffle bag |

@@ -45,28 +45,26 @@ public class AllHooks extends AppUtilities {
 				driver = new FirefoxDriver();
 				break;
 			default:
-				driver = null;
-				break;
+				logger.info("Invalid browser name");
+				return;
 		}
 
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		logger.info("Scenario execution started");
 	}
 
 	@Before(order = 1)
 	public void urlSetup() {
-		driver.get(config.getBaseURL());
-		logger.info("Opens the application");
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	}
 	
-	@AfterStep
-	public void stepScreenshot(Scenario scenario) throws IOException {
-		final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-		scenario.attach(screenshot,"image/png", scenario.getName());
-
-		logger.info("Captured screenshot for step: " + scenario.getName());
-	}
+//	@AfterStep
+//	public void stepScreenshot(Scenario scenario) throws IOException {
+//		final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+//		scenario.attach(screenshot,"image/png", scenario.getName());
+//
+//		logger.info("Captured screenshot for step: " + scenario.getName());
+//	}
 	
 	@After(order = 1)
 	public void closeWindow(Scenario scenario) throws IOException {
@@ -83,7 +81,7 @@ public class AllHooks extends AppUtilities {
 	public void tearDown() {
 		if(driver != null) {
 			logger.info("Scenario execution over");
-			driver.quit();			
+//			driver.quit();			
 		}
 	}
 }

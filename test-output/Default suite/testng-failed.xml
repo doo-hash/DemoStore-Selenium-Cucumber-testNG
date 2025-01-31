@@ -6,8 +6,8 @@
       <class name="org.demoStore.runner.Runner">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0 10"/>
           <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
         </methods>
       </class> <!-- org.demoStore.runner.Runner -->
     </classes>

@@ -10,12 +10,27 @@ import org.demoStore.pages.LoginPage;
 import org.demoStore.utilities.AppUtilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class LoginStepDef  extends AppUtilities{
+	
+	@Given("user opens the application")
+	public void user_opens_the_application() {
+		try {
+			driver.get(config.getBaseURL());
+			if(driver.getTitle().equals("Home Page")) {
+				logger.info("Opens the application");			
+			}else {
+				logger.info("failed to open the application");;
+			}
+		} catch (Exception e) {
+			logger.info(e.getMessage());
+		}
+	}
 	
 	@Given("user navigates to login page")
 	public void user_navigates_to_login_page() {
@@ -56,20 +71,32 @@ public class LoginStepDef  extends AppUtilities{
 	
 	@Then("user name is visible {string}")
 	public void user_name_is_visible(String username) {
-		String message = homePage.getWelcomeMessage();
-		if(message.contains(username)) {
-			assertTrue(true);
-			logger.trace("Username found");
-		}else {
-			logger.fatal("Username - " + username + " not found");
+
+		try {
+			if(homePage.isWelcomeElementPresent()) {
+				String message = homePage.getWelcomeMessage();
+				if(message.contains(username)) {
+					logger.trace("Username found");
+					assertTrue(true);
+				}else {
+					System.out.println("not matched");
+					logger.error("Username - " + username + " not found");
+					assertTrue(false);
+				}				
+			}			
+		} catch (Exception e) {
+			logger.error("username not found");
+			logger.error(e.getMessage());
 		}
 	}
 
 	@Then("user should get proper warning message")
 	public void user_should_get_proper_warning_message() {
-		String errMessage = loginPage.getErrorMessage();
-		if(errMessage.length() != 0) {
-			logger.trace("Warnig message found: "+ errMessage);
+		if(loginPage.isErrorMessagePresent()) {
+			String errMessage = loginPage.getErrorMessage();
+			if(errMessage.length() != 0) {
+				logger.trace("Warnig message found: "+ errMessage);
+			}	
 		}else {
 			logger.warn("Warning message not found");
 		}
@@ -84,21 +111,38 @@ public class LoginStepDef  extends AppUtilities{
 
 	@Then("user gets email warning message {string}")
 	public void user_gets_email_warning_message(String errMessage) {
-		String message = loginPage.getEmailErrorMessage();
-		if(message.equals(errMessage)) {
-			 logger.trace("Email warning message found"); 
-		}else{
-			 logger.warn("warning message not found"); 
+		try {
+			if(loginPage.isEmailErrorPresent()) {
+				Assert.assertTrue(true);
+				String message = loginPage.getEmailErrorMessage();
+				if(message.equals(errMessage)) {
+					 logger.trace("Email warning message found"); 
+				}			
+			}else{
+				 logger.warn("warning message not found"); 
+				Assert.assertTrue(false);
+			}			
+		} catch (Exception e) {
+			logger.error("Email error element not found");
 		}
+
 	}
 
 	@Then("user gets password warning message {string}")
 	public void user_gets_password_warning_message(String errMessage) {
-		String message = loginPage.getPasswordErrorMessage();
-		if(message.equals(errMessage)) {
-			 logger.trace("Password warning message found"); 
-		}else {
-			logger.warn("Warning message not found");
+		try {
+			if(loginPage.isPasswordErrorPresent()) {
+				Assert.assertTrue(true);
+				String message = loginPage.getPasswordErrorMessage();
+				if(message.equals(errMessage)) {
+					 logger.trace("Password warning message found"); 
+				}	
+			}else {
+				logger.warn("Warning message not found");
+				Assert.assertTrue(false);
+			}			
+		} catch (Exception e) {
+			logger.error("Password error element not found");
 		}
 	}
 }

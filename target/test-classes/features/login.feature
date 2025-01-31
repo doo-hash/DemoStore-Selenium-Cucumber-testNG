@@ -4,7 +4,8 @@ Feature: User login to demo store application
   User wants to login and manage his/her account details and orders
 
 Background:
-    Given user navigates to login page
+    Given user opens the application	
+    And user navigates to login page
 
   @login @validCredentials @smoke @regression
   Scenario: User logins with valid credentials
